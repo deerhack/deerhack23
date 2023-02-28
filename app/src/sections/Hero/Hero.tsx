@@ -1,0 +1,75 @@
+import { DiscordLogo } from "@/assets/images";
+import { useEffect, useState } from "react";
+
+const Hero = () => {
+
+    const [time, setTime] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+
+    useEffect(() => {
+        const finalDate = new Date("2023-05-05");
+
+        setInterval(() => {
+            const dt = new Date(Date.now());
+
+            let remainingTime = finalDate.getTime() - dt.getTime();
+            remainingTime = Math.floor(remainingTime / 1000)
+
+            const days = Math.floor(remainingTime / (24 * 60 * 60));
+            remainingTime = remainingTime % (24 * 60 * 60);
+
+            const hours = Math.floor(remainingTime / (60 * 60));
+            remainingTime = remainingTime % (60 * 60)
+
+            const minutes = Math.floor(remainingTime / (60));
+            remainingTime = remainingTime % 60;
+
+            const seconds = remainingTime;
+
+            setTime({ days, hours, minutes, seconds });
+
+        }, 1000);
+
+
+    }, [])
+
+
+
+    return (
+        <section className="flex flex-col text-center items-center justify-center pt-32 bg-violet-900 min-h-screen">
+            <div>Logo</div>
+            <h2 className="font-mont font-bold text-primary text-7xl">DeerHack 2023</h2>
+            <h4 className="font-poppins font-medium text-5xl mt-5 text-white">5th-7th May</h4>
+            <div className="flex flex-row gap-2 justify-center font-mont text-7xl text-primary font-bold mt-10">
+                <div className="flex flex-col gap-2 text-center">
+                    <span>{time.days}</span>
+                    <span className="text-lg text-white">Days</span>
+                </div>
+                <span>:</span>
+                <div className="flex flex-col gap-2 text-center">
+                    <span>{time.hours}</span>
+                    <span className="text-lg text-white">Hours</span>
+                </div>
+                <span>:</span>
+                <div className="flex flex-col gap-2 text-center">
+                    <span>{time.minutes}</span>
+                    <span className="text-lg text-white">Minutes</span>
+                </div>
+                <span>:</span>
+                <div className="flex flex-col gap-2 text-center">
+                    <span>{time.seconds}</span>
+                    <span className="text-lg text-white">Seconds</span>
+                </div>
+            </div>
+
+            <button className="border-primary border-2 px-5 py-3 font-mont font-bold text-3xl text-white mt-10 rounded-xl">Register</button>
+
+            <div className="my-10">
+
+            <DiscordLogo/>
+            </div>
+
+        </section>
+    );
+}
+
+export default Hero;
