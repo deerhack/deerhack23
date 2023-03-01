@@ -20,7 +20,7 @@ jobs:
 
       - name: Push image
         run: |
-          docker push $ghcr.io/deerwalk-developers-community/deerhack:latest
+          docker push ghcr.io/deerwalk-developers-community/deerhack:latest
       
 
       
