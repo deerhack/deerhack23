@@ -1,10 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between container mx-auto p-5">
-            <div>Logo</div>
+        <nav className="flex justify-between container mx-auto p-5 items-center">
+            <div>
+                <Image src={"/images/logo.png"} alt="Deerhack logo" width={50} height={50} />
+            </div>
             <ul className="flex flex-row justify-around gap-10 font-poppins font-semibold">
                 <li>
                     <Link href="#">About</Link>

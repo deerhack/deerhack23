@@ -1,0 +1,28 @@
+name: create-docker-image
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Docker build
+        run: docker build -t ghcr.io/Deerwalk-Developers-Community/Deerhack:latest .
+
+      - name: Log in to registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+
+      - name: Push image
+        run: |
+          docker push $ghcr.io/Deerwalk-Developers-Community/Deerhack:latest .
+      
+
+      
+
+
