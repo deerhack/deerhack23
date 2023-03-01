@@ -13,14 +13,14 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Docker build
-        run: docker build . -t ghcr.io/Deerwalk-Developers-Community/Deerhack:latest
+        run: docker build . -t ghcr.io/deerwalk-developers-community/deerhack:latest
 
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
 
       - name: Push image
         run: |
-          docker push $ghcr.io/Deerwalk-Developers-Community/Deerhack:latest .
+          docker push $ghcr.io/deerwalk-developers-community/deerhack:latest .
       
 
       
