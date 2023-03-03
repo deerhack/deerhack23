@@ -22,7 +22,7 @@ const montserrat = Montserrat({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={`${poppins.variable} ${montserrat.variable}`}>
-      <Layout>
+      <Layout pageData={pageProps["pageData"]}>
         <Component {...pageProps} />
       </Layout>
     </div>

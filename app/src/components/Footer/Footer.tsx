@@ -1,20 +1,64 @@
+import { FbIcon, InstaIcon } from "@/assets/icons";
+import DiscordIcon from "@/assets/icons/DiscordIcon";
 import { DeerhackLogo } from "@/assets/images";
 
-const Footer = () => {
-    return <div>
-        <div className="flex flex-row justify-between">
-            <div>
-                <DeerhackLogo width={50} height={50} />
-                <h3 className="font-mont text-3xl font-bold">DeerHack 2023</h3>
-                
+type Props = {
+  socialLinks: PageData["socialLinks"];
+};
 
-
-            </div>
-            <div>
-
-            </div>
+const Footer = ({ socialLinks }: Props) => {
+  return (
+    <div className="p-5 bg-color-5 w-full">
+      <div className="flex flex-row justify-between container mx-auto">
+        <div>
+          <DeerhackLogo width={80} height={80} />
+          <h3 className="font-mont text-3xl font-bold mt-7 text-white">
+            DeerHack 2023
+          </h3>
+          <div className="font-poppins text-xl font-medium text-white mt-6">
+            Email:{" "}
+            <a
+              href="mailto:softwareclub@deerwalk.edu.np"
+              className="text-primary"
+            >
+              softwareclub@deerwalk.edu.np
+            </a>
+          </div>
+          <div className="font-poppins text-xl font-medium text-white mt-3">
+            Contact:{" "}
+            <a href="tel:+9779899989901" className="text-primary">
+              +977 989-998-9901,{" "}
+            </a>{" "}
+            <a href="tel:+9779812971200" className="text-primary">
+              +977 981-297-1200
+            </a>
+          </div>
         </div>
+        <div>
+          <div className="flex flex-row gap-5 justify-center items-center h-[80px]">
+            <a href={socialLinks.facebook}>
+              <FbIcon />
+            </a>
+            <a href={socialLinks.instagram}>
+              <InstaIcon />
+            </a>
+            <a href={socialLinks.discord}>
+              <DiscordIcon />
+            </a>
+          </div>
+          <div className="font-mont font-bold text-white text-4xl mt-7">
+            Event Summary
+          </div>
+          <div className="font-poppins text-xl font-medium text-white mt-3">
+            Mode: <span className="text-primary">In-Person</span>
+          </div>
+          <div className="font-poppins text-xl font-medium text-white mt-3">
+            Date: <span className="text-primary">5th - 7th May, 2023</span>
+          </div>
+        </div>
+      </div>
     </div>
-}
+  );
+};
 
 export default Footer;

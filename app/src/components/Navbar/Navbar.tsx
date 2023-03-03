@@ -5,21 +5,21 @@ import { DeerhackLogo } from "@/assets/images";
 const Navbar = () => {
   return (
     <nav className="flex justify-between container mx-auto p-5 items-center">
-      <div>
+      <Link href={"/"}>
         <DeerhackLogo width={50} height={50} />
-      </div>
+      </Link>
       <ul className="flex flex-row justify-around gap-10 font-poppins font-semibold">
         <li>
-          <Link href="#">About</Link>
+          <a href="#about">About</a>
         </li>
         <li>
-          <Link href="#">Tracks</Link>
+          <a href="#tracks">Tracks</a>
         </li>
         <li>
-          <Link href="#">Prizes</Link>
+          <a href="#prizes">Prizes</a>
         </li>
         <li>
-          <Link href="#">FAQ</Link>
+          <a href="#faq">FAQ</a>
         </li>
       </ul>
     </nav>

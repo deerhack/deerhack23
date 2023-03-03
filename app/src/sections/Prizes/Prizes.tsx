@@ -6,7 +6,7 @@ type Props = {
 
 const Prizes = ({ prizes }: Props) => {
   return (
-    <section className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-24">
+    <section className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-24" id="prizes">
       <div className="container mx-auto">
         <h2 className="font-mont font-bold text-5xl text-white text-center">
           Prizes

@@ -9,12 +9,13 @@ type Props = {
   tracks: Track[];
   prizes: Prize[];
   faqs: Faq[];
+  pageData: PageData;
 };
 
-const Home = ({ tracks, prizes, faqs }: Props) => {
+const Home = ({ tracks, prizes, faqs, pageData }: Props) => {
   return (
     <>
-      <Hero />
+      <Hero discordUrl={pageData.socialLinks.discord} />
       <Info />
       <Tracks tracks={tracks} />
       <Prizes prizes={prizes} />
@@ -29,12 +30,14 @@ export async function getStaticProps() {
   const tracksData = await readDataFile("tracks.json");
   const prizesData = await readDataFile("prizes.json");
   const faqData = await readDataFile("faqs.json");
+  const pageData = await readDataFile("pagedata.json");
 
   return {
     props: {
       tracks: tracksData["tracks"],
       prizes: prizesData["prizes"],
       faqs: faqData["faqs"],
+      pageData: pageData,
     },
   };
 }
