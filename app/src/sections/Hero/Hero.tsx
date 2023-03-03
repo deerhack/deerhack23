@@ -1,4 +1,4 @@
-import { DiscordLogo } from "@/assets/images";
+import { DiscordLogo } from "@/assets/icons";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
