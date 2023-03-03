@@ -1,6 +1,6 @@
 const DiscordLogo = () => {
   return (
-    <figure className="bg-[#5865F2] px-5 py-3 w-56 rounded-xl">
+    <figure className="bg-[#5865F2] px-5 py-3 w-48 lg:w-56 rounded-xl">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.67 96.36">
         <defs></defs>
         <g id="" data-name="">

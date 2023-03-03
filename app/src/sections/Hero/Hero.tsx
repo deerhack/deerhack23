@@ -41,35 +41,35 @@ const Hero = ({discordUrl}: Props) => {
   return (
     <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg.png')] bg-contain bg-center bg-no-repeat" id="hero">
       {/* <div>Logo</div> */}
-      <h2 className="font-mont font-bold text-primary text-7xl">
+      <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
       </h2>
-      <h4 className="font-poppins font-medium text-5xl mt-5 text-white">
+      <h4 className="font-poppins font-medium text-2xl lg:text-5xl mt-5 text-white">
         5th-7th May
       </h4>
-      <div className="flex flex-row gap-2 justify-center font-mont text-7xl text-primary font-bold mt-10">
+      <div className="flex flex-row gap-2 justify-center font-mont text-4xl lg:text-7xl text-primary font-bold mt-10">
         <div className="flex flex-col gap-2 text-center">
           <span>{time.days}</span>
-          <span className="text-lg text-white">Days</span>
+          <span className="text-sm lg:text-lg text-white">Days</span>
         </div>
         <span>:</span>
         <div className="flex flex-col gap-2 text-center">
           <span>{time.hours}</span>
-          <span className="text-lg text-white">Hours</span>
+          <span className="text-sm lg:text-lg text-white">Hours</span>
         </div>
         <span>:</span>
         <div className="flex flex-col gap-2 text-center">
           <span>{time.minutes}</span>
-          <span className="text-lg text-white">Minutes</span>
+          <span className="text-sm lg:text-lg text-white">Minutes</span>
         </div>
         <span>:</span>
         <div className="flex flex-col gap-2 text-center">
           <span>{time.seconds}</span>
-          <span className="text-lg text-white">Seconds</span>
+          <span className="text-sm lg:text-lg text-white">Seconds</span>
         </div>
       </div>
 
-      <Link className="border-primary border-2 px-5 py-3 font-mont font-bold text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200" href={"/register"}>
+      <Link className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200" href={"/register"}>
         Register
       </Link>
 

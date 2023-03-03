@@ -4,7 +4,7 @@ import { InfoCard } from "./components";
 const Info = () => {
   return (
     <section
-      className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-24"
+      className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-10 lg:py-24"
       id="about"
     >
       <div className="container mx-auto p-5">
