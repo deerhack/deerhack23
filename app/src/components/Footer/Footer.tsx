@@ -9,7 +9,7 @@ type Props = {
 const Footer = ({ socialLinks }: Props) => {
   return (
     <div className="p-5 bg-color-5 w-full">
-      <div className="flex flex-col lg:flex-row justify-between container mx-auto gap-y-10">
+      <div className="flex flex-col lg:flex-row justify-between container mx-auto gap-y-10 lg:mt-10">
         <div>
           <DeerhackLogo width={80} height={80} />
           <h3 className="font-mont text-xl md:text-3xl font-bold mt-7 text-white">
@@ -57,6 +57,9 @@ const Footer = ({ socialLinks }: Props) => {
           </div>
         </div>
       </div>
+
+      <div className="container mx-auto border-t-2 border-gray-600 mt-10"></div>
+      <div className="text-white font-poppins font-bold lg:text-xl mt-10 text-center">All Rights Reserved © <span className="text-primary">DeerHack 2023</span></div>
     </div>
   );
 };
