@@ -1,11 +1,13 @@
 import React from 'react';
 import { Navbar } from '../Navbar';
+import { Footer } from '../Footer';
 
 type Props = {
-    children: string | JSX.Element
+    children: string | JSX.Element;
+    pageData: PageData;
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children, pageData }: Props) => {
     return (
         <>
             <header className="bg-secondary text-white sticky w-full">
@@ -14,6 +16,8 @@ const Layout = ({ children }: Props) => {
             <main>
                 {children}
             </main>
+            
+            <Footer socialLinks={pageData.socialLinks} />
         </>
     )
 }

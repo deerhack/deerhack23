@@ -1,4 +1,4 @@
-import { TrophieLogo } from "@/assets/images";
+import { TrophieLogo } from "@/assets/icons";
 
 type Props = {
   prize: Prize;

@@ -1,7 +1,12 @@
-import { DiscordLogo } from "@/assets/images";
+import { DiscordLogo } from "@/assets/icons";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Hero = () => {
+type Props = {
+  discordUrl: string;
+}
+
+const Hero = ({discordUrl}: Props) => {
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
@@ -34,8 +39,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg.png')] bg-contain bg-center bg-no-repeat">
-      <div>Logo</div>
+    <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg.png')] bg-contain bg-center bg-no-repeat" id="hero">
+      {/* <div>Logo</div> */}
       <h2 className="font-mont font-bold text-primary text-7xl">
         DeerHack 2023
       </h2>
@@ -64,13 +69,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className="border-primary border-2 px-5 py-3 font-mont font-bold text-3xl text-white mt-10 rounded-xl">
+      <Link className="border-primary border-2 px-5 py-3 font-mont font-bold text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200" href={"/register"}>
         Register
-      </button>
+      </Link>
 
-      <div className="my-10">
+      <a href={discordUrl} className="my-10">
         <DiscordLogo />
-      </div>
+      </a>
     </section>
   );
 };

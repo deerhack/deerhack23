@@ -1,15 +1,23 @@
 type Track = {
-    logo: string;
-    title: string;
-    description: string;
-}
+  logo: string;
+  title: string;
+  description: string;
+};
 
 type Prize = {
-    title: string;
-    prizes: string[];
-}
+  title: string;
+  prizes: string[];
+};
 
 type Faq = {
-    question: string;
-    answer: string;
-}
+  question: string;
+  answer: string;
+};
+
+type PageData = {
+  socialLinks: {
+    facebook: string;
+    instagram: string;
+    discord: string;
+  };
+};
