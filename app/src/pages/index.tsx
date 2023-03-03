@@ -20,7 +20,7 @@ const Home = ({ tracks, prizes, faqs, pageData }: Props) => {
         <Hero discordUrl={pageData.socialLinks.discord} />
         <Info />
         <Tracks tracks={tracks} />
-        <Prizes prizes={prizes} />
+        {/* <Prizes prizes={prizes} /> */}
         <Faq faqs={faqs} />
       </>
     </Layout>

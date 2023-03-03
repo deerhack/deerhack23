@@ -9,13 +9,13 @@ type Props = {
 const Footer = ({ socialLinks }: Props) => {
   return (
     <div className="p-5 bg-color-5 w-full">
-      <div className="flex flex-row justify-between container mx-auto">
+      <div className="flex flex-col lg:flex-row justify-between container mx-auto gap-y-10">
         <div>
           <DeerhackLogo width={80} height={80} />
-          <h3 className="font-mont text-3xl font-bold mt-7 text-white">
+          <h3 className="font-mont text-xl md:text-3xl font-bold mt-7 text-white">
             DeerHack 2023
           </h3>
-          <div className="font-poppins text-xl font-medium text-white mt-6">
+          <div className="font-poppins md:text-xl font-medium text-white mt-6">
             Email:{" "}
             <a
               href="mailto:softwareclub@deerwalk.edu.np"
@@ -24,7 +24,7 @@ const Footer = ({ socialLinks }: Props) => {
               softwareclub@deerwalk.edu.np
             </a>
           </div>
-          <div className="font-poppins text-xl font-medium text-white mt-3">
+          <div className="font-poppins md:text-xl font-medium text-white mt-3">
             Contact:{" "}
             <a href="tel:+9779899989901" className="text-primary">
               +977 989-998-9901,{" "}
@@ -35,7 +35,7 @@ const Footer = ({ socialLinks }: Props) => {
           </div>
         </div>
         <div>
-          <div className="flex flex-row gap-5 justify-center items-center h-[80px]">
+          <div className="flex flex-row gap-5 justify-start lg:justify-center items-center h-[80px]">
             <a href={socialLinks.facebook}>
               <FbIcon />
             </a>
@@ -46,13 +46,13 @@ const Footer = ({ socialLinks }: Props) => {
               <DiscordIcon />
             </a>
           </div>
-          <div className="font-mont font-bold text-white text-4xl mt-7">
+          <div className="font-mont font-bold text-white text-xl md:text-4xl mt-7">
             Event Summary
           </div>
-          <div className="font-poppins text-xl font-medium text-white mt-3">
+          <div className="font-poppins md:text-xl font-medium text-white mt-3">
             Mode: <span className="text-primary">In-Person</span>
           </div>
-          <div className="font-poppins text-xl font-medium text-white mt-3">
+          <div className="font-poppins md:text-xl font-medium text-white mt-3">
             Date: <span className="text-primary">5th - 7th May, 2023</span>
           </div>
         </div>

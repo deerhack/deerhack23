@@ -7,7 +7,7 @@ const Info = () => {
       className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-10 lg:py-24"
       id="about"
     >
-      <div className="container mx-auto p-5">
+      <div className="container mx-auto p-5 flex flex-col lg:gap-y-28 gap-y-16">
         <InfoCard
           titleFirst="About "
           titleSecond="Deerwalk Institute of Technology"
