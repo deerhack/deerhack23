@@ -19,7 +19,7 @@ const InfoCard = ({
     <div
       className={clsx(
         "flex mb-16",
-        alignRight ? ["flex-row-reverse", "text-right"] : "flex-row"
+        alignRight ? ["lg:flex-row-reverse", "lg:text-right"] : "flex-row"
       )}
     >
       <div className="w-full lg:w-9/12">
