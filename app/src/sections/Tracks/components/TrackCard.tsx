@@ -8,8 +8,7 @@ type Props = {
 
 const TrackCard = ({ logoSrc, title, description }: Props) => {
   return (
-    <div className="basis-5/12 flex-grow flex-shrink mx-auto">
-      <div className="bg-gradient-to-b from-[#A5A7FF] via-[#8183DA] to-transparent rounded-3xl text-center max-w-sm px-12 py-24 mx-auto">
+      <div className="bg-gradient-to-b from-[#A5A7FF] via-[#8183DA] to-transparent rounded-3xl text-center max-w-sm px-12 py-24">
         <figure>
           <Image
             src={logoSrc}
@@ -26,7 +25,6 @@ const TrackCard = ({ logoSrc, title, description }: Props) => {
           {description}
         </p>
       </div>
-    </div>
   );
 };
 

@@ -1,26 +1,33 @@
+import { Illustration1, Illustration2, Illustration3 } from "@/assets/images";
 import { InfoCard } from "./components";
 
 const Info = () => {
   return (
-    <section className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-24" id="about">
+    <section
+      className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-24"
+      id="about"
+    >
       <div className="container mx-auto p-5">
         <InfoCard
-          titleFirst="Deer"
-          titleSecond="Hack"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+          titleFirst="About "
+          titleSecond="Deerwalk Institute of Technology"
+          content="Deerwalk Institute of Technology (DWIT) is an educational institution that prepares students and professionals of all levels to meet the problems and grab the possibilities of the twenty-first century IT Industry. The institute is well-known for its approach to learning that is both open-minded and responsible. It has an affiliation with Tribhuvan University and offers two undergraduate degrees, BSc. CSIT and BCA."
+          illustration={<Illustration1 />}
         />
 
         <InfoCard
-          titleFirst="Our "
-          titleSecond="Vision"
+          titleFirst="About "
+          titleSecond="DeerHack"
           alignRight={true}
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+          content="Deer Hack 2023 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change."
+          illustration={<Illustration2 />}
         />
 
         <InfoCard
           titleFirst="Why "
           titleSecond="Join?"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+          content="DeerHack gives participants a one-of-a-kind opportunity to work in groups to develop innovative solutions to real-world problems. You will work with individuals who share your desire to create something significant. DeerHack also provides you access to mentors and industry specialists that can assist you throughout the event and help you improve your skills. You will also be able to network with other participants and potential employers, which will help your entire career."
+          illustration={<Illustration3 />}
         />
       </div>
     </section>

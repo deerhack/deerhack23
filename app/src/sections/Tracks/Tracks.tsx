@@ -12,7 +12,7 @@ const Tracks = ({ tracks }: Props) => {
         <h2 className="font-mont font-bold text-5xl text-white text-center">
           Tracks
         </h2>
-        <div className="mt-16 flex flex-row justify-around items-start gap-x-4 gap-y-14 flex-wrap">
+        <div className="mt-16 grid grid-cols-2 grid-rows-2 gap-x-14 gap-y-14 place-content-center mx-auto max-w-fit">
           {tracks.map((track) => (
             <TrackCard
               key={track.title}

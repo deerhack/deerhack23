@@ -2,23 +2,23 @@
     "tracks": [
         {
             "logo": "https://cdn-icons-png.flaticon.com/512/3222/3222625.png",
-            "title": "Machine Learning",
-            "description": "For those bridging the gap between machine and humans"
+            "title": "Data Science/Machine Learning",
+            "description": "Transforming Data into Insights: Create Humans out of Machines."
         },
         {
             "logo": "https://cdn-icons-png.flaticon.com/512/3222/3222625.png",
-            "title": "Machine Learning",
-            "description": "For those bridging the gap between machine and humans"
+            "title": "Blockchain",
+            "description": "Joining the Revolution of Decentralization."
         },
         {
             "logo": "https://cdn-icons-png.flaticon.com/512/3222/3222625.png",
-            "title": "Machine Learning",
-            "description": "For those bridging the gap between machine and humans"
+            "title": "Interactive Innovation",
+            "description": "Connecting the World with the Internet of Things."
         },
         {
             "logo": "https://cdn-icons-png.flaticon.com/512/3222/3222625.png",
-            "title": "Machine Learning",
-            "description": "For those bridging the gap between machine and humans"
+            "title": "Open Innovation",
+            "description": "Solving Problems, building a Better Future for Everyone."
         }
     ]
 }
