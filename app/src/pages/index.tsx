@@ -4,6 +4,7 @@ import { Tracks } from "@/sections/Tracks";
 import { Prizes } from "@/sections/Prizes";
 import readDataFile from "@/utilities/readDataFile";
 import { Faq } from "@/sections/Faq";
+import { Layout } from "@/components/Layout";
 
 type Props = {
   tracks: Track[];
@@ -14,13 +15,15 @@ type Props = {
 
 const Home = ({ tracks, prizes, faqs, pageData }: Props) => {
   return (
-    <>
-      <Hero discordUrl={pageData.socialLinks.discord} />
-      <Info />
-      <Tracks tracks={tracks} />
-      <Prizes prizes={prizes} />
-      <Faq faqs={faqs} />
-    </>
+    <Layout pageData={pageData}>
+      <>
+        <Hero discordUrl={pageData.socialLinks.discord} />
+        <Info />
+        <Tracks tracks={tracks} />
+        <Prizes prizes={prizes} />
+        <Faq faqs={faqs} />
+      </>
+    </Layout>
   );
 };
 
