@@ -26,11 +26,11 @@ const Footer = ({ socialLinks }: Props) => {
           </div>
           <div className="font-poppins md:text-xl font-medium text-white mt-3">
             Contact:{" "}
-            <a href="tel:+9779899989901" className="text-primary">
-              +977 989-998-9901,{" "}
+            <a href="tel:+9779860050391" className="text-primary">
+              +977 9860050391,{" "}
             </a>{" "}
-            <a href="tel:+9779812971200" className="text-primary">
-              +977 981-297-1200
+            <a href="tel:+9779840033009" className="text-primary">
+              +977 9840033009
             </a>
           </div>
         </div>
