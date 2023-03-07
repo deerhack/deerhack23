@@ -17,7 +17,7 @@ const FaqCard = ({faq}: Props) => {
       <h2>
         <button
           type="button"
-          className={clsx("flex items-center justify-between w-full py-5 px-8 text-left rounded-t-xl bg-color-4 text-white font-bold font-mont text-lg lg:text-xl xl:text-2xl", !open && "rounded-b-xl")}
+          className={clsx("flex items-center justify-between w-full py-5 px-8 text-left rounded-t-xl bg-color-4 text-white font-semibold font-mont text-lg lg:text-xl xl:text-2xl", !open && "rounded-b-xl")}
           onClick={handleClick}
         >
           <span>{faq.question}</span>

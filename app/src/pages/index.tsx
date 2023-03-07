@@ -5,6 +5,7 @@ import { Prizes } from "@/sections/Prizes";
 import readDataFile from "@/utilities/readDataFile";
 import { Faq } from "@/sections/Faq";
 import { Layout } from "@/components/Layout";
+import Head from "next/head";
 
 type Props = {
   tracks: Track[];
@@ -17,6 +18,9 @@ const Home = ({ tracks, prizes, faqs, pageData }: Props) => {
   return (
     <Layout pageData={pageData}>
       <>
+        <Head>
+          <title>DeerHack 2023</title>
+        </Head>
         <Hero discordUrl={pageData.socialLinks.discord} />
         <Info />
         <Tracks tracks={tracks} />
