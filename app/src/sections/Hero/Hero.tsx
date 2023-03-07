@@ -1,6 +1,8 @@
 import { DiscordLogo } from "@/assets/icons";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Logo from "@/assets/images/logo.png";
 
 type Props = {
   discordUrl: string;
@@ -40,7 +42,9 @@ const Hero = ({discordUrl}: Props) => {
 
   return (
     <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.png')] bg-cover bg-center bg-no-repeat" id="hero">
-      {/* <div>Logo</div> */}
+      <div className="w-32 h-32 lg:w-64 lg:h-64">
+        <Image src={Logo} alt="Deerhack logo"  />
+      </div>
       <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
       </h2>
