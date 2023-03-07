@@ -39,7 +39,7 @@ const Hero = ({discordUrl}: Props) => {
   }, []);
 
   return (
-    <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg.png')] bg-contain bg-center bg-no-repeat" id="hero">
+    <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.png')] bg-cover bg-center bg-no-repeat" id="hero">
       {/* <div>Logo</div> */}
       <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between container mx-auto p-5 items-center">
+    <nav className="flex justify-between container mx-auto p-5 items-center bg-transparent">
       <Link href={"/"}>
         <DeerhackLogo width={50} height={50} />
       </Link>
