@@ -20,7 +20,7 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${poppins.variable} ${montserrat.variable}`}>
+    <div className={`${poppins.variable} ${montserrat.variable} min-w-[300px]`}>
       <Component {...pageProps} />
     </div>
   );
