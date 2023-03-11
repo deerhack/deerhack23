@@ -19,5 +19,4 @@ const DataScienceIcon = () => {
   );
 };
 
-
 export default DataScienceIcon;

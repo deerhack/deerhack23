@@ -1,11 +1,11 @@
 import clsx from "clsx";
 import { useState } from "react";
 
-type Props ={
-    faq: Faq;
-}
+type Props = {
+  faq: Faq;
+};
 
-const FaqCard = ({faq}: Props) => {
+const FaqCard = ({ faq }: Props) => {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -13,11 +13,14 @@ const FaqCard = ({faq}: Props) => {
   };
 
   return (
-    <div className="lg:basis-[49%] w-full">
+    <div className="w-full">
       <h2>
         <button
           type="button"
-          className={clsx("flex items-center justify-between w-full py-5 px-8 text-left rounded-t-xl bg-color-4 text-white font-semibold font-mont text-lg lg:text-xl xl:text-2xl", !open && "rounded-b-xl")}
+          className={clsx(
+            "flex h-auto lg:h-24 items-center justify-between w-full py-5 px-8 text-left rounded-t-xl bg-color-4 text-white font-semibold font-mont text-lg lg:text-xl xl:text-2xl",
+            !open && "rounded-b-xl"
+          )}
           onClick={handleClick}
         >
           <span>{faq.question}</span>
@@ -36,11 +39,14 @@ const FaqCard = ({faq}: Props) => {
           </svg>
         </button>
       </h2>
-      <div className={clsx("font-poppins font-medium text-xl bg-color-4 rounded-b-xl", !open && "hidden")}>
+      <div
+        className={clsx(
+          "font-poppins font-medium text-xl bg-color-4 rounded-b-xl",
+          !open && "hidden"
+        )}
+      >
         <div className="py-5 px-8">
-          <p className="mb-2 text-white">
-            {faq.answer}
-          </p>
+          <p className="mb-2 text-white">{faq.answer}</p>
         </div>
       </div>
     </div>

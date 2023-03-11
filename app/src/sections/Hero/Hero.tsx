@@ -2,13 +2,13 @@ import { DiscordLogo } from "@/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Logo from "@/assets/images/logo.png";
+import Logo from "@/assets/images/logo.webp";
 
 type Props = {
   discordUrl: string;
-}
+};
 
-const Hero = ({discordUrl}: Props) => {
+const Hero = ({ discordUrl }: Props) => {
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
@@ -41,9 +41,12 @@ const Hero = ({discordUrl}: Props) => {
   }, []);
 
   return (
-    <section className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.png')] bg-cover bg-center bg-no-repeat" id="hero">
+    <section
+      className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.webp')] bg-cover bg-center bg-no-repeat"
+      id="hero"
+    >
       <div className="w-32 h-32 lg:w-64 lg:h-64">
-        <Image src={Logo} alt="Deerhack logo"  />
+        <Image src={Logo} alt="Deerhack logo" />
       </div>
       <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
@@ -73,7 +76,10 @@ const Hero = ({discordUrl}: Props) => {
         </div>
       </div>
 
-      <Link className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200" href={"/register"}>
+      <Link
+        className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200"
+        href={"/register"}
+      >
         Register
       </Link>
 

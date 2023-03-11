@@ -59,7 +59,10 @@ const Footer = ({ socialLinks }: Props) => {
       </div>
 
       <div className="container mx-auto border-t-2 border-gray-600 mt-10"></div>
-      <div className="text-white font-poppins font-bold lg:text-xl mt-10 text-center">All Rights Reserved © <span className="text-primary">DeerHack 2023</span></div>
+      <div className="text-white font-poppins font-bold lg:text-xl mt-10 text-center">
+        All Rights Reserved ©{" "}
+        <span className="text-primary">DeerHack 2023</span>
+      </div>
     </div>
   );
 };

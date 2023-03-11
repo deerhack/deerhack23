@@ -5,16 +5,29 @@ type Props = {
 };
 
 const Faq = ({ faqs }: Props) => {
+  const col1 = faqs.slice(0, Math.floor(faqs.length / 2) + 1);
+  const col2 = faqs.slice(Math.floor(faqs.length / 2) + 1);
+
   return (
-    <section className="bg-gradient-to-r from-[#100A28] to-[#4F3E93] py-24" id="faq">
+    <section
+      className="bg-gradient-to-r from-[#100A28] to-[#4F3E93] py-24"
+      id="faq"
+    >
       <div className="container mx-auto">
         <h2 className="font-mont font-bold text-2xl lg:text-5xl text-white text-center">
           FAQ
         </h2>
-        <div className="mt-16 flex flex-row justify-between items-start gap-x-4 gap-y-5 lg:gap-y-14 flex-wrap px-5">
-          {faqs.map((faq) => (
-            <FaqCard key={faq.question} faq={faq} />
-          ))}
+        <div className="mt-16 justify-between px-5 flex flex-col lg:flex-row gap-5">
+          <div className="flex flex-col gap-y-5 lg:gap-y-14 w-full">
+            {col1.map((faq) => (
+              <FaqCard key={faq.question} faq={faq} />
+            ))}
+          </div>
+          <div className="flex flex-col gap-y-5 lg:gap-y-14 w-full">
+            {col2.map((faq) => (
+              <FaqCard key={faq.question} faq={faq} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

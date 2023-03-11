@@ -52,7 +52,6 @@ const DiscordLogo = () => {
           </g>
         </g>
       </svg>
-
     </figure>
   );
 };
