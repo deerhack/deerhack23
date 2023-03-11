@@ -1,1 +1,1 @@
-export {default as FaqCard} from "./FaqCard";
+export { default as FaqCard } from "./FaqCard";

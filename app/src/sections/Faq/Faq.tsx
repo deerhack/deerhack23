@@ -5,8 +5,8 @@ type Props = {
 };
 
 const Faq = ({ faqs }: Props) => {
-  const col1 = faqs.slice(0, Math.floor(faqs.length / 2)+1);
-  const col2 = faqs.slice(Math.floor(faqs.length / 2)+1);
+  const col1 = faqs.slice(0, Math.floor(faqs.length / 2) + 1);
+  const col2 = faqs.slice(Math.floor(faqs.length / 2) + 1);
 
   return (
     <section

@@ -25,7 +25,7 @@ const Illustration2 = () => {
       />
       <mask
         id="mask0_221_497"
-        style={{maskType:"luminance"}}
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="87"
         y="38"
@@ -66,7 +66,7 @@ const Illustration2 = () => {
       />
       <mask
         id="mask1_221_497"
-        style={{maskType:"luminance"}}
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="12"
         y="0"
@@ -115,7 +115,7 @@ const Illustration2 = () => {
       />
       <mask
         id="mask2_221_497"
-        style={{maskType:"luminance"}}
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="121"
         y="211"
@@ -135,7 +135,7 @@ const Illustration2 = () => {
       </g>
       <mask
         id="mask3_221_497"
-        style={{maskType:"luminance"}}
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="0"
         y="8"
