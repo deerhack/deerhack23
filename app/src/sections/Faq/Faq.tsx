@@ -8,7 +8,6 @@ const Faq = ({ faqs }: Props) => {
   const col1 = faqs.slice(0, Math.floor(faqs.length / 2)+1);
   const col2 = faqs.slice(Math.floor(faqs.length / 2)+1);
 
-  console.log({ col1, col2 });
   return (
     <section
       className="bg-gradient-to-r from-[#100A28] to-[#4F3E93] py-24"
