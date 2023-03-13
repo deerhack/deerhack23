@@ -31,15 +31,12 @@ const Layout = ({ children, pageData }: Props) => {
       >
         <Navbar />
       </header>
-      <main
-        onScroll={(e) => {
-          console.log(e);
-        }}
-      >
-        {children}
-      </main>
+      <main>{children}</main>
 
-      <Footer socialLinks={pageData.socialLinks} />
+      <Footer
+        socialLinks={pageData.socialLinks}
+        contactEmail={pageData.contactEmail}
+      />
     </>
   );
 };

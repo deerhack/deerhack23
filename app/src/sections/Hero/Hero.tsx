@@ -80,7 +80,7 @@ const Hero = ({ discordUrl }: Props) => {
         className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200"
         href={"/register"}
       >
-        Register
+        Pre-Register
       </Link>
 
       <a href={discordUrl} className="my-10">

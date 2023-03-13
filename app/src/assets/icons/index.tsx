@@ -8,3 +8,4 @@ export { default as DataScienceIcon } from "./DataScienceIcon";
 export { default as BlockChainIcon } from "./BlockChainIcon";
 export { default as InteractiveTechnologyIcon } from "./InteractiveTechnologyIcon";
 export { default as OpenInnovationIcon } from "./OpenInnovationIcon";
+export { default as LinkedinIcon } from "./LinkedinIcon";
