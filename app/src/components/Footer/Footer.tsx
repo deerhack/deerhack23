@@ -1,12 +1,13 @@
-import { FbIcon, InstaIcon } from "@/assets/icons";
+import { FbIcon, InstaIcon, LinkedinIcon } from "@/assets/icons";
 import DiscordIcon from "@/assets/icons/DiscordIcon";
 import { DeerhackLogo } from "@/assets/images";
 
 type Props = {
   socialLinks: PageData["socialLinks"];
+  contactEmail: string;
 };
 
-const Footer = ({ socialLinks }: Props) => {
+const Footer = ({ socialLinks, contactEmail }: Props) => {
   return (
     <div className="p-5 bg-color-5 w-full">
       <div className="flex flex-col lg:flex-row justify-between container mx-auto gap-y-10 lg:mt-10">
@@ -21,7 +22,7 @@ const Footer = ({ socialLinks }: Props) => {
               href="mailto:softwareclub@deerwalk.edu.np"
               className="text-primary"
             >
-              softwareclub@deerwalk.edu.np
+              {contactEmail}
             </a>
           </div>
           <div className="font-poppins md:text-xl font-medium text-white mt-3">
@@ -44,6 +45,9 @@ const Footer = ({ socialLinks }: Props) => {
             </a>
             <a href={socialLinks.discord}>
               <DiscordIcon />
+            </a>
+            <a href={socialLinks.linkedin}>
+              <LinkedinIcon />
             </a>
           </div>
           <div className="font-mont font-bold text-white text-xl md:text-4xl mt-7">

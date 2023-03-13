@@ -19,5 +19,8 @@ type PageData = {
     facebook: string;
     instagram: string;
     discord: string;
+    linkedin: string;
   };
+  registerForm: string;
+  contactEmail: string;
 };
