@@ -15,7 +15,7 @@ const nextConfig = {
     return [
       {
         source: '/register',
-        destination: 'https://docs.google.com/forms/d/e/1FAIpQLScbL3gIgXPh_UDM8PWu6nFJJE3-x4mwON9Dc-dzMGuXiPSkQw/viewform',
+        destination: 'https://forms.gle/jnfihb3Jz2Q17xUB8',
         permanent: false
         
       }

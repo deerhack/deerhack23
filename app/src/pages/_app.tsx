@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
           content="Hackathon in Nepal, 36 Hours Hackathon, Upcoming Hackathons in Nepal, Deerwalk Hackathon, Deerwalk Institute Of Technology, hackathon nepal, hackathon meaning, what is a hackathon, why participate in hackathon"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Deerwalk Institute Of Technology" />
