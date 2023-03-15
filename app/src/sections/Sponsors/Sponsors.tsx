@@ -37,10 +37,10 @@ const Sponsers = ({ sponsorGroups }: Props) => {
         ))}
 
         <div className="font-poppins text-white text-center">
-          <h2 className="font-bold text-4xl mt-16">
+          <h2 className="font-bold text-xl lg:text-4xl mt-16">
             Interested in Sponsoring?
           </h2>
-          <p className="font-bold text-xl">
+          <p className="font-bold lg:text-xl text-md">
             Email us:{" "}
             <a
               href={`mailto:${"deerhack@deerwalk.edu.np"}`}
