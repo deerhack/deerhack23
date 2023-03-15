@@ -56,6 +56,47 @@ model Notification {
   updated_at        DateTime          @updatedAt
 }
 
+model faqs {
+  id         String   @id @unique @default(uuid())
+  question   String
+  answer     String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model deerhack {
+  id            String   @id @unique @default(uuid())
+  contact_email String
+  register_form String
+  created_at    DateTime @default(now())
+  updated_at    DateTime @updatedAt
+}
+
+model socials {
+  id         String   @id @unique @default(uuid())
+  name       String
+  link       String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model prizes {
+  id         String   @id @unique @default(uuid())
+  title      String
+  prizes     String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model tracks {
+  id          String   @id @unique @default(uuid())
+  logo        String
+  title       String
+  description String
+  created_at  DateTime @default(now())
+  updated_at  DateTime @updatedAt
+}
+
 enum Role {
   PARTICIPANT
   ADMIN
