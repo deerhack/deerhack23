@@ -21,6 +21,18 @@ jobs:
       - name: Push image
         run: |
           docker push ghcr.io/deerwalk-developers-community/deerhack:latest
+          
+  # need update
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Deploy stage
+  #     uses: fjogeleit/http-request-action@v1
+  #     with:
+  #       url: "http://110.44.116.42:8090/deploy/${{ secrets.DEPLOY_API_KEY }}/deerhack"
+  #   - name: Show Response
+  #     run: |
+  #       echo ${{ steps.myRequest.outputs.response }}
       
 
       

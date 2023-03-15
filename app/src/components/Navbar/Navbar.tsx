@@ -14,16 +14,21 @@ const Navbar = () => {
       </Link>
       <ul className="lg:flex flex-row justify-around gap-10 font-poppins font-semibold hidden">
         <li>
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </li>
         <li>
-          <a href="#tracks">Tracks</a>
+          <a href="/#tracks">Tracks</a>
         </li>
         <li>
-          <a href="#prizes">Prizes</a>
+          <a href="/#prizes">Prizes</a>
         </li>
         <li>
-          <a href="#faq">FAQ</a>
+          <a href="/#faq">FAQ</a>
+        </li>
+        <li>
+          <Link href={"/code-of-conduct"}>
+            Code of Conduct
+          </Link>
         </li>
       </ul>
       <button className="lg:hidden" onClick={() => setOpen(!open)}>
