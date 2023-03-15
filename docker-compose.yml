@@ -5,4 +5,18 @@ services:
     build: .
     ports:
       - "3000:3000"
-    
+  db:
+    container_name: database
+    image: mysql
+    environment:
+      - MYSQL_DATABASE: "deerhack"
+      - MYSQL_USER: "software_club"
+      - MYSQL_PASSWORD: "software123"
+      - MYSQL_ROOT_PASSWORD: "software123"
+    ports:
+      - "3306"
+    volumes:
+      - my-db:/var/lib/mysql
+
+volumes:
+  my_db:
