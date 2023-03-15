@@ -1,0 +1,29 @@
+{
+    "sponsorGroups": [
+        {
+            "title": "Title Sponsor",
+            "sponsors": [
+                {
+                    "name": "Deerhold",
+                    "link": "https://deerhold.com/",
+                    "logo": "/images/sponsors/deerhold.png"
+                },
+                {
+                    "name": "Hamro Patro",
+                    "link": "https://www.hamropatro.com/",
+                    "logo": "/images/sponsors/hamro_patro.svg"
+                },
+                {
+                    "name": "Daraz",
+                    "link": "https://www.daraz.com.np/",
+                    "logo": "/images/sponsors/daraz.png"
+                },
+                {
+                    "name": "The Everest List",
+                    "link": "https://theeverestlist.org/",
+                    "logo": "/images/sponsors/everestlist.png"
+                }
+            ]
+        }
+    ]
+}

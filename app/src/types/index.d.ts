@@ -14,6 +14,17 @@ type Faq = {
   answer: string;
 };
 
+type Sponsor = {
+  name: string;
+  logo: string;
+  link: string;
+}
+
+type SponsorGroup = {
+  title: string;
+  sponsors: Sponsor[];
+}
+
 type PageData = {
   socialLinks: {
     facebook: string;
