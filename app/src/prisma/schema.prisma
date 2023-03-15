@@ -15,6 +15,7 @@ model User {
   email            String
   password         String
   name             String
+  dob              DateTime       @db.Date
   role             Role           @default(PARTICIPANT)
   Team             Team?          @relation(fields: [team_id], references: [id])
   team_id          String?
@@ -51,7 +52,7 @@ model Notification {
   notification_type Notification_Type @default(GLOBAL)
   notification      String
   User              User?             @relation(fields: [user_id], references: [id])
-  user_id           String
+  user_id           String?
   created_at        DateTime          @default(now())
   updated_at        DateTime          @updatedAt
 }
@@ -65,11 +66,11 @@ model faqs {
 }
 
 model deerhack {
-  id            String   @id @unique @default(uuid())
-  contact_email String
-  register_form String
-  created_at    DateTime @default(now())
-  updated_at    DateTime @updatedAt
+  id         String   @id @unique @default(uuid())
+  key        String
+  value      String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
 }
 
 model socials {
