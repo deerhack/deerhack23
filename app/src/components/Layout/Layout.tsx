@@ -6,12 +6,16 @@ import clsx from "clsx";
 type Props = {
   children: string | JSX.Element;
   pageData: PageData;
+  transparentNav?: boolean; // for other pages
 };
 
-const Layout = ({ children, pageData }: Props) => {
-  const [isAtTop, setIsAtTop] = useState(true);
+const Layout = ({ children, pageData, transparentNav = true }: Props) => {
+  const [isAtTop, setIsAtTop] = useState(transparentNav);
 
   useEffect(() => {
+    // do not add scroll event if transparent nav is false
+    if (!transparentNav) return;
+
     document.addEventListener("scroll", () => {
       if (window.scrollY > window.innerHeight) {
         setIsAtTop(false);
@@ -19,14 +23,15 @@ const Layout = ({ children, pageData }: Props) => {
         setIsAtTop(true);
       }
     });
-  }, []);
+  }, [transparentNav]);
 
   return (
     <>
       <header
         className={clsx(
           isAtTop ? "bg-transparent" : "bg-navbar",
-          "text-white fixed w-full transition z-10"
+          "text-white w-full transition z-10",
+          transparentNav ? "fixed" : "relative"
         )}
       >
         <Navbar />

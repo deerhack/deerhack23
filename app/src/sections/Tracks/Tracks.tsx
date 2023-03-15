@@ -12,7 +12,7 @@ const Tracks = ({ tracks }: Props) => {
       id="tracks"
     >
       <div className="container mx-auto">
-        <h2 className="font-mont font-bold text-2xl lg:text-5xl text-white text-center">
+        <h2 className="font-mont font-bold text-3xl lg:text-5xl text-white text-center">
           Tracks
         </h2>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 grid-rows-auto gap-x-14 gap-y-14 place-content-center mx-auto max-w-fit">

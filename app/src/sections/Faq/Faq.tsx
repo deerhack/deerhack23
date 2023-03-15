@@ -14,7 +14,7 @@ const Faq = ({ faqs }: Props) => {
       id="faq"
     >
       <div className="container mx-auto">
-        <h2 className="font-mont font-bold text-2xl lg:text-5xl text-white text-center">
+        <h2 className="font-mont font-bold text-3xl lg:text-5xl text-white text-center">
           FAQ
         </h2>
         <div className="mt-16 justify-between px-5 flex flex-col lg:flex-row gap-5">
