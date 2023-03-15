@@ -14,16 +14,16 @@ const Navbar = () => {
       </Link>
       <ul className="lg:flex flex-row justify-around gap-10 font-poppins font-semibold hidden">
         <li>
-          <a href="/#about">About</a>
+          <Link href="/#about" scroll={false}>About</Link>
         </li>
         <li>
-          <a href="/#tracks">Tracks</a>
+          <Link href="/#tracks" scroll={false}>Tracks</Link>
         </li>
         <li>
-          <a href="/#prizes">Prizes</a>
+          <Link href="/#prizes" scroll={false}>Prizes</Link>
         </li>
         <li>
-          <a href="/#faq">FAQ</a>
+          <Link href="/#faq" scroll={false}>FAQ</Link>
         </li>
         <li>
           <Link href={"/code-of-conduct"}>
