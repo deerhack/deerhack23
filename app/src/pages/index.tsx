@@ -21,7 +21,7 @@ const Home = ({ tracks, prizes, faqs, sponsors, pageData }: Props) => {
     <Layout pageData={pageData}>
       <>
         <Head>
-          <title>DeerHack 2023</title>
+          <title>DeerHack 2023 - Fawning Over Innovation</title>
         </Head>
         <Hero discordUrl={pageData.socialLinks.discord} />
         <Info />

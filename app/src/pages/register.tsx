@@ -1,4 +1,5 @@
 import readDataFile from "@/utilities/readDataFile";
+import Head from "next/head";
 import { useEffect } from "react";
 
 type Props = {
@@ -12,6 +13,9 @@ const Register = ({ pageData }: Props) => {
 
   return (
     <div className="flex items-center justify-center w-full h-screen bg-navbar dark:bg-navbar">
+      <Head>
+        <title>Register - DeerHack 2023</title>
+      </Head>
       <div role="status">
         <svg
           aria-hidden="true"

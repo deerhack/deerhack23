@@ -2,6 +2,7 @@ import { Layout } from "@/components/Layout";
 import readDataFile from "@/utilities/readDataFile";
 
 import css from "@/styles/code-of-conduct.module.css";
+import Head from "next/head";
 
 type Props = {
   pageData: PageData;
@@ -11,6 +12,9 @@ const CodeOfConduct = ({ pageData }: Props) => {
   return (
     <Layout pageData={pageData} transparentNav={false}>
       <div className="bg-color-5 py-10 text-white px-10">
+        <Head>
+          <title>Code of Conduct - DeerHack 2023</title>
+        </Head>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold font-mont text-center text-primary">
           Code of Conduct
         </h1>
