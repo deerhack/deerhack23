@@ -22,6 +22,16 @@
                     "name": "The Everest List",
                     "link": "https://theeverestlist.org/",
                     "logo": "/images/sponsors/everestlist.png"
+                },
+                {
+                    "name": "Hawk Ai",
+                    "link": "https://hawkai.online/",
+                    "logo": "/images/sponsors/hawkai.png"
+                },
+                {
+                    "name": "Atkans",
+                    "link": "",
+                    "logo": "/images/sponsors/atkans.png"
                 }
             ]
         }
