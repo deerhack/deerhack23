@@ -1,5 +1,6 @@
 import { CloseIcon } from "@/assets/icons";
 import clsx from "clsx";
+import NavLinks from "./NavLinks";
 
 type Props = {
   setOpen: Function;
@@ -13,21 +14,10 @@ const MobileNavbar = ({ setOpen }: Props) => {
       </span>
 
       <ul
-        className="flex flex-col justify-around gap-10 font-poppins font-semibold text-3xl"
+        className="flex flex-col justify-around gap-10 font-poppins font-semibold text-3xl text-center"
         onClick={() => setOpen(false)}
       >
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#tracks">Tracks</a>
-        </li>
-        <li>
-          <a href="#prizes">Prizes</a>
-        </li>
-        <li>
-          <a href="#faq">FAQ</a>
-        </li>
+        <NavLinks/>
       </ul>
     </div>
   );
