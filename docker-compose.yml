@@ -5,18 +5,16 @@ services:
     build: .
     ports:
       - "3000:3000"
+    depends_on:
+      - db
   db:
-    container_name: database
-    image: mysql
-    environment:
-      - MYSQL_DATABASE: "deerhack"
-      - MYSQL_USER: "software_club"
-      - MYSQL_PASSWORD: "software123"
-      - MYSQL_ROOT_PASSWORD: "software123"
+    image: mariadb:10.7
+    env_file:
+      - ./app/.env
     ports:
-      - "3306"
+      - 3306:3306
     volumes:
-      - my-db:/var/lib/mysql
+      - my_db:/var/lib/mysql
 
 volumes:
   my_db:
