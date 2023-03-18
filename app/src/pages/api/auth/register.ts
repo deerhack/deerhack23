@@ -28,6 +28,25 @@ const schema = Joi.object({
   linkedin: Joi.string().uri().allow(''),
 });
 
+/**
+ * @swagger
+ * /api/auth/register:
+ *  post:
+ *    description: Register a user
+ *    parameters:
+ *      - name: name
+ *      - name: email
+ *      - name: dob
+ *      - name: password
+ *      - name: confirmPassword
+ *      - name: phone
+ *      - name: github
+ *      - name: linkedin
+ * 
+ *    responses:
+ *      200:
+ *        description: {error: null, success: true, data: {user: <token>}}
+ */
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
@@ -56,7 +75,7 @@ export default async function handler(
       });
 
       return res.status(200).json({
-        error: false,
+        error: null,
         success: true,
         data: {
           user: await encode({
