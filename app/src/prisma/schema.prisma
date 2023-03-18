@@ -15,6 +15,7 @@ model User {
   email            String
   password         String
   name             String
+  phone_no         String
   dob              DateTime       @db.Date
   role             Role           @default(PARTICIPANT)
   Team             Team?          @relation(fields: [team_id], references: [id])
