@@ -43,7 +43,6 @@ export default function App({ Component, pageProps }: AppProps) {
       />
 
       <Head>
-        <title>DeerHack 2023 - Fawning Over Innovation</title>
         <meta name="title" content="DeerHack 2023 - Fawning Over Innovation" />
         <meta
           name="description"
