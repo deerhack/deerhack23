@@ -19,15 +19,34 @@ const schema = Joi.object({
     .required(),
   confirmPassword: Joi.ref("password"),
   dob: Joi.date().greater("1974-1-1").less(dobLimit).required(),
-  phoneNumber: Joi.string()
+  phone: Joi.string()
     .regex(
       /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/
     )
     .required(),
-  github: Joi.string().uri(),
-  linkedin: Joi.string().uri(),
+  github: Joi.string().uri().allow(''),
+  linkedin: Joi.string().uri().allow(''),
 });
 
+/**
+ * @swagger
+ * /api/auth/register:
+ *  post:
+ *    description: Register a user
+ *    parameters:
+ *      - name: name
+ *      - name: email
+ *      - name: dob
+ *      - name: password
+ *      - name: confirmPassword
+ *      - name: phone
+ *      - name: github
+ *      - name: linkedin
+ * 
+ *    responses:
+ *      200:
+ *        description: {error: null, success: true, data: {user: <token>}}
+ */
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
@@ -49,14 +68,14 @@ export default async function handler(
             .createHash("md5")
             .update(value.password)
             .digest("hex"),
-          phone: value.phoneNumber,
+          phone: value.phone,
           github_profile: value.github,
           linkedin_profile: value.linkedin,
         },
       });
 
       return res.status(200).json({
-        error: false,
+        error: null,
         success: true,
         data: {
           user: await encode({

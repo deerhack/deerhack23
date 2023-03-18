@@ -50,6 +50,7 @@ const credentialProvider = CredentialsProvider({
 });
 
 export const authOptions: NextAuthOptions = {
+  secret: process.env.SECRETS,
   session: {
     strategy: "jwt",
   },
