@@ -20,7 +20,7 @@ model User {
   role             Role           @default(PARTICIPANT)
   Team             Team?          @relation(fields: [team_id], references: [id])
   team_id          String?
-  Application      Application?    @relation(fields: [application_id], references: [id])
+  Application      Application?   @relation(fields: [application_id], references: [id])
   application_id   String?
   Notification     Notification[]
   QR               String?
