@@ -20,20 +20,22 @@ const credentialProvider = CredentialsProvider({
 
   async authorize(credentials, req) {
     // Add logic here to look up the user from the credentials supplied
+    console.log(credentials);
     if (credentials?.token) {
       const decodedData = await decode({
         secret: process.env.SECRETS || "",
         token: credentials.token,
       });
       if (decodedData) {
-        const user = prisma.user.findFirst({
+        const user = await prisma.user.findFirst({
           where: { id: decodedData["id"] || "" },
         });
+        console.log(decodedData);
         return user;
       }
     }
 
-    const user = prisma.user.findFirst({
+    const user = await prisma.user.findFirst({
       where: {
         email: credentials?.email,
         password: crypto
