@@ -12,15 +12,16 @@ datasource db {
 
 model User {
   id               String         @id @unique @default(uuid())
-  email            String
+  email            String         @unique
   password         String
   name             String
+  phone            String
   dob              DateTime       @db.Date
   role             Role           @default(PARTICIPANT)
   Team             Team?          @relation(fields: [team_id], references: [id])
   team_id          String?
-  Application      Application    @relation(fields: [application_id], references: [id])
-  application_id   String
+  Application      Application?    @relation(fields: [application_id], references: [id])
+  application_id   String?
   Notification     Notification[]
   QR               String?
   github_profile   String?
