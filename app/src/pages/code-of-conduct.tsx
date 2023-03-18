@@ -74,9 +74,8 @@ const CodeOfConduct = ({ pageData }: Props) => {
               Participants of all ages, genders, and geographies are welcome.
             </li>
             <li>
-              There are no age limitations for attending the hackathon; however,
-              if you are under the age of 18, your parents/legal guardians must
-              approve you to attend.
+              To attend DeerHack, the age is limited to students who are between 18
+              and 25 years old.
             </li>
             <li>
               Members of the organizing committee or Deerwalk Institute of
