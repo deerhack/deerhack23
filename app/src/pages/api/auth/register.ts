@@ -19,13 +19,13 @@ const schema = Joi.object({
     .required(),
   confirmPassword: Joi.ref("password"),
   dob: Joi.date().greater("1974-1-1").less(dobLimit).required(),
-  phoneNumber: Joi.string()
+  phone: Joi.string()
     .regex(
       /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/
     )
     .required(),
-  github: Joi.string().uri(),
-  linkedin: Joi.string().uri(),
+  github: Joi.string().uri().allow(''),
+  linkedin: Joi.string().uri().allow(''),
 });
 
 export default async function handler(
@@ -49,7 +49,7 @@ export default async function handler(
             .createHash("md5")
             .update(value.password)
             .digest("hex"),
-          phone: value.phoneNumber,
+          phone: value.phone,
           github_profile: value.github,
           linkedin_profile: value.linkedin,
         },

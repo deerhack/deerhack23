@@ -20,6 +20,7 @@ const credentialProvider = CredentialsProvider({
 
   async authorize(credentials, req) {
     // Add logic here to look up the user from the credentials supplied
+    console.log(credentials);
     if (credentials?.token) {
       const decodedData = await decode({
         secret: process.env.SECRETS || "",
@@ -48,6 +49,7 @@ const credentialProvider = CredentialsProvider({
 });
 
 export const authOptions: NextAuthOptions = {
+  secret: process.env.SECRETS,
   session: {
     strategy: "jwt",
   },
