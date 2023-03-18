@@ -1,30 +1,93 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import {signIn} from "next-auth/react"
+import { signIn } from "next-auth/react";
+import { ErrorMessage, Field, Form, Formik } from "formik";
+import * as Yup from "yup";
+import { getServerSession } from "next-auth";
+import { authOptions } from "../api/auth/[...nextauth]";
+
+type formData = {
+  email: string;
+  password: string;
+};
+
+const loginSchema = Yup.object().shape({
+  email: Yup.string().email("Invalid email").required("Required"),
+  password: Yup.string().required("Required"),
+});
 
 const Login = () => {
-  const [formData, setFormData] = useState({ email: "", password: "" });
+  // backend error
+  const [error, setError] = useState("");
 
-  const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+  const handleFormSubmit = async (values: formData) => {
+    console.log(values);
 
-    const res = await signIn('credentials', {redirect:false, token:"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..s_OXMyxDye37MTz8.qhMP--EXspTOkedVXoBe1aPaDAEe0MBsGfucoVD_abwE0pMF8vQYeGYQvYgbBCbo4akMl2LzGivCkoo2p7Ixy5ick3ynEWtLiIi1rv3QmqHBm7f_kqnUsRkzjUs5PD_ByUBYHRNNmIqrehQrcBTbnh_co4M8LII8TfS1sQ.f3rZvGyo0EaoRABixbQlBQ"});
-    console.log(res);
-    
+    const res = await signIn("credentials", { ...values, redirect: false });
+
+    if (res?.ok) {
+      window.location.replace("/");
+      return;
+    }
+
+    if (res?.status == 401) {
+      setError("Invalid username/password.");
+    }
+
+    // handle error
   };
-
-  const handleFormChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setFormData({...formData, [e.target.name]: e.target.value});
-  }
 
   return (
     <>
-      <form onSubmit={handleFormSubmit}>
-        <input type="email" name="email" onChange={handleFormChange} value={formData.email} className="border border-gray-100" />
-        <input type="password" name="password" onChange={handleFormChange} value={formData.password}  className="border border-gray-100"/>
-        <input type="submit" value="Login" />
-      </form>
+      <Formik
+        initialValues={{ email: "", password: "" }}
+        onSubmit={handleFormSubmit}
+        validationSchema={loginSchema}
+      >
+        {(formikProps) => (
+          <Form>
+            {error && <div>{error}</div>}
+            <label htmlFor="email">Email</label>
+            <Field name="email" type="email" id="email" />
+            <ErrorMessage
+              name="email"
+              component="div"
+              className="field-error"
+            />
+
+            <label htmlFor="password">Password</label>
+            <Field name="password" type="password" id="password" />
+            <ErrorMessage
+              name="password"
+              component="div"
+              className="field-error"
+            />
+
+            <button type="submit">Submit</button>
+          </Form>
+        )}
+      </Formik>
     </>
   );
 };
 
 export default Login;
+
+
+export async function getServerSideProps(context: any) {
+  const session = await getServerSession(context.req, context.res, authOptions);
+
+  if (session) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
+
+  return {
+    props: {
+      session,
+    },
+  };
+}
