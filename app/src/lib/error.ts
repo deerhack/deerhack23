@@ -1,3 +1,0 @@
-class DeerHackError extends Error {
-    
-}

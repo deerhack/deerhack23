@@ -15,19 +15,18 @@ const Sponsers = ({ sponsorGroups }: Props) => {
 
         {sponsorGroups.map((sponsorGroup) => (
           <div className="mt-8 lg:mt-12" key={sponsorGroup.title}>
-            {/* Uncomment this after titles are defined */}
-            {/* <h3 className="font-mont font-bold text-2xl lg:text-5xl text-white text-center lg:text-start">
+            <h3 className="font-mont font-bold text-2xl lg:text-5xl text-white text-center lg:text-start">
               {sponsorGroup.title}
-            </h3> */}
+            </h3>
             <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 justify-center items-center py-10">
               {sponsorGroup.sponsors.map((sponsor) => (
                 <a key={sponsor.name} href={sponsor.link}>
                   <Image
                     src={sponsor.logo}
                     alt={sponsor.name}
-                    width={150}
-                    height={150}
-                    className="w-32 h-32 lg:w-36 lg:h-36 object-contain mx-auto"
+                    width={500}
+                    height={500}
+                    className="h-32 lg:h-36 object-contain mx-auto"
                   />
                 </a>
               ))}
