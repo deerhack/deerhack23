@@ -19,7 +19,7 @@ const Info = () => {
           titleFirst="About "
           titleSecond="DeerHack"
           alignRight={true}
-          content="Deer Hack 2023 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change."
+          content="Deer Hack 2023 is the brainchild of a small team to unleash the potential of young innovators through a 48-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change."
           illustration={<Illustration2 />}
         />
 
