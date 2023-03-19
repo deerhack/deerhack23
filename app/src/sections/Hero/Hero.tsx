@@ -17,6 +17,17 @@ const Hero = ({ discordUrl }: Props) => {
   });
 
   useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  useEffect(() => {
     const finalDate = new Date("2023-05-05");
 
     setInterval(() => {
@@ -76,12 +87,20 @@ const Hero = ({ discordUrl }: Props) => {
         </div>
       </div>
 
-      <Link
+      <div className="mt-10">
+        <div
+          className="apply-button"
+          data-hackathon-slug="deerhack"
+          data-button-theme="light"
+          style={{ height: "44px", width: "312px" }}
+        ></div>
+      </div>
+      {/* <Link
         className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200"
         href={"/register"}
       >
         Pre-Register
-      </Link>
+      </Link> */}
 
       <a href={discordUrl} className="my-10">
         <DiscordLogo />

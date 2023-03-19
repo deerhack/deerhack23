@@ -1,44 +1,89 @@
 {
-    "sponsorGroups": [
+  "sponsorGroups": [
+    {
+      "title": "Gold Sponsor",
+      "sponsors": [
         {
-            "title": "Title Sponsor",
-            "sponsors": [
-                {
-                    "name": "Deerhold",
-                    "link": "https://deerhold.com/",
-                    "logo": "/images/sponsors/deerhold.png"
-                },
-                {
-                    "name": "Hamro Patro",
-                    "link": "https://www.hamropatro.com/",
-                    "logo": "/images/sponsors/hamro_patro.svg"
-                },
-                {
-                    "name": "Daraz",
-                    "link": "https://www.daraz.com.np/",
-                    "logo": "/images/sponsors/daraz.png"
-                },
-                {
-                    "name": "The Everest List",
-                    "link": "https://theeverestlist.org/",
-                    "logo": "/images/sponsors/everestlist.png"
-                },
-                {
-                    "name": "Hawk Ai",
-                    "link": "https://hawkai.online/",
-                    "logo": "/images/sponsors/hawkai.png"
-                },
-                {
-                    "name": "Atkans",
-                    "link": "",
-                    "logo": "/images/sponsors/atkans.png"
-                },
-                {
-                    "name": "Big Digital",
-                    "link": "https://bigdigital.com.np/",
-                    "logo": "/images/sponsors/bigdigital.png"
-                }
-            ]
+          "name": "Devfolio",
+          "link": "https://devfolio.co",
+          "logo": "/images/sponsors/devfolio.png"
+        },
+        {
+          "name": "Polygon",
+          "link": "https://polygon.technology/",
+          "logo": "/images/sponsors/polygon.svg"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Silver Sponsor",
+      "sponsors": [
+        {
+          "name": "Solana",
+          "link": "https://solana.com ",
+          "logo": "/images/sponsors/solana.svg"
+        },
+        {
+          "name": "Filecoin",
+          "link": "https://filecoin.io ",
+          "logo": "/images/sponsors/filecoin.svg"
+        },
+        {
+          "name": "Replit",
+          "link": "https://replit.com ",
+          "logo": "/images/sponsors/replit.png"
+        }
+      ]
+    },
+    {
+      "title": "Ecommerce Partner",
+      "sponsors": [
+        {
+          "name": "Daraz",
+          "link": "https://www.daraz.com.np/",
+          "logo": "/images/sponsors/daraz.png"
+        }
+      ]
+    },
+    {
+      "title": "Ranking Partner",
+      "sponsors": [
+        {
+          "name": "The Everest List",
+          "link": "https://theeverestlist.org/",
+          "logo": "/images/sponsors/everestlist.png"
+        }
+      ]
+    },
+    {
+      "title": "Supported By",
+      "sponsors": [
+        {
+          "name": "Deerhold",
+          "link": "https://deerhold.com/",
+          "logo": "/images/sponsors/deerhold.png"
+        },
+        {
+          "name": "Hamro Patro",
+          "link": "https://www.hamropatro.com/",
+          "logo": "/images/sponsors/hamro_patro.svg"
+        },
+        {
+          "name": "Hawk Ai",
+          "link": "https://hawkai.online/",
+          "logo": "/images/sponsors/hawkai.png"
+        },
+        {
+          "name": "Atkans",
+          "link": "",
+          "logo": "/images/sponsors/atkans.png"
+        },
+        {
+          "name": "Big Digital",
+          "link": "https://bigdigital.com.np/",
+          "logo": "/images/sponsors/bigdigital.png"
+        }
+      ]
+    }
+  ]
 }
