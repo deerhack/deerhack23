@@ -24,8 +24,8 @@ const schema = Joi.object({
       /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/
     )
     .required(),
-  github: Joi.string().uri().allow(''),
-  linkedin: Joi.string().uri().allow(''),
+  github: Joi.string().uri().allow(""),
+  linkedin: Joi.string().uri().allow(""),
 });
 
 /**
@@ -42,7 +42,7 @@ const schema = Joi.object({
  *      - name: phone
  *      - name: github
  *      - name: linkedin
- * 
+ *
  *    responses:
  *      200:
  *        description: {error: null, success: true, data: {user: <token>}}
@@ -85,19 +85,18 @@ export default async function handler(
         },
       });
     } catch (e) {
-      if (e instanceof Prisma.PrismaClientKnownRequestError) {
-        if (e.code === "P2002") {
-          return res.status(400).json({
-            error: { message: "Email address already in use." },
-            success: false,
-          });
-        }
-      }
+      // if (e instanceof Prisma.PrismaClientKnownRequestError) {
+      //   if (e.code === "P2002") {
+      return res.status(400).json({
+        error: { message: "Email address already in use." },
+        success: false,
+      });
+      // }
+      // }
 
-      console.log(e);
-      return res
-        .status(500)
-        .json({ error: { message: "Something went wrong!" }, success: false });
+      // return res
+      //   .status(500)
+      //   .json({ error: { message: "Something went wrong!" }, success: false });
     }
   }
 
