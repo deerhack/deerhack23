@@ -1,9 +1,6 @@
 import type { AppProps } from "next/app";
 
-import { Layout } from "@/components/Layout";
 import { Poppins, Montserrat } from "@next/font/google";
-
-import { SessionProvider } from "next-auth/react";
 
 import "@/styles/globals.css";
 import Script from "next/script";

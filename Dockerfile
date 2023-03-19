@@ -8,8 +8,6 @@ RUN yarn
 
 COPY app/ /app
 
-RUN yarn prisma generate
-
 RUN yarn build
 
 CMD ["yarn", "start"]
