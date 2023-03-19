@@ -3,6 +3,8 @@ import type { AppProps } from "next/app";
 import { Layout } from "@/components/Layout";
 import { Poppins, Montserrat } from "@next/font/google";
 
+import { SessionProvider } from "next-auth/react";
+
 import "@/styles/globals.css";
 import Script from "next/script";
 import Head from "next/head";
@@ -22,7 +24,7 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <SessionProvider session={pageProps.session}>
       <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-46QHYVR4HL"
@@ -97,6 +99,6 @@ export default function App({ Component, pageProps }: AppProps) {
       >
         <Component {...pageProps} />
       </div>
-    </>
+    </SessionProvider>
   );
 }

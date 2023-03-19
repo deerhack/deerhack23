@@ -32,6 +32,11 @@
                     "name": "Atkans",
                     "link": "",
                     "logo": "/images/sponsors/atkans.png"
+                },
+                {
+                    "name": "Big Digital",
+                    "link": "https://bigdigital.com.np/",
+                    "logo": "/images/sponsors/bigdigital.png"
                 }
             ]
         }
