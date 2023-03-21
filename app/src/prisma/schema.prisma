@@ -20,8 +20,7 @@ model User {
   role             Role           @default(PARTICIPANT)
   Team             Team?          @relation(fields: [team_id], references: [id])
   team_id          String?
-  Application      Application?   @relation(fields: [application_id], references: [id])
-  application_id   String?
+  Application      Application?
   Notification     Notification[]
   QR               String?
   github_profile   String?
@@ -43,9 +42,27 @@ model Application {
   id         String   @id @unique @default(uuid())
   status     Status   @default(PENDING)
   letter     String   @db.Text
-  User       User[]
+  User       User     @relation(fields: [user_id], references: [id])
+  user_id    String   @unique
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
+}
+
+model Appication_Form {
+  id          String               @id @unique @default(uuid())
+  question    Application_Question @relation(fields: [question_id], references: [id])
+  question_id Int
+  answer      String
+  created_at  DateTime             @default(now())
+  updated_at  DateTime             @updatedAt
+}
+
+model Application_Question {
+  id               Int               @id @default(autoincrement())
+  question         String
+  Application_Form Appication_Form[]
+  created_at       DateTime          @default(now())
+  updated_at       DateTime          @updatedAt
 }
 
 model Notification {
