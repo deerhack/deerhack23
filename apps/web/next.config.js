@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const path = require("path");
+
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
@@ -10,6 +12,10 @@ const nextConfig = {
     domains: [
       'cdn-icons-png.flaticon.com'
     ]
+  },
+  output: 'standalone',
+  experimental: {
+    outputFileTracingRoot: path.join(__dirname, "../../"),
   },
 }
 

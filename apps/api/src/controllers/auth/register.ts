@@ -40,20 +40,19 @@ const registerController = async (req: Request, res: Response) => {
       },
     });
   } catch (e) {
-    if (e instanceof Prisma.PrismaClientKnownRequestError) {
-      if (e.code === "P2002") {
-        return res.status(400).json({
-          error: { message: "Email address already in use." },
-          success: false,
-        });
-      }
-    }
-
-    return res
-      .status(500)
-      .json({ error: { message: "Something went wrong!" }, success: false });
+    // if (e instanceof Prisma.PrismaClientKnownRequestError) {
+    //   if (e.code === "P2002") {
+    return res.status(400).json({
+      error: { message: "Email address already in use." },
+      success: false,
+    });
+    // }
   }
-}
 
+  // return res
+  //   .status(500)
+  //   .json({ error: { message: "Something went wrong!" }, success: false });
+  // }
+};
 
 export default registerController;

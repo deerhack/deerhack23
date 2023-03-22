@@ -29,7 +29,7 @@ const Layout = ({ children, pageData, transparentNav = true }: Props) => {
     <>
       <header
         className={clsx(
-          isAtTop ? "bg-transparent" : "bg-navbar",
+          isAtTop ? "bg-transparent" : "bg-secondary",
           "text-white w-full transition z-10",
           transparentNav ? "fixed" : "relative"
         )}
