@@ -5,9 +5,17 @@ type Track = {
 };
 
 type Prize = {
+  icon: string;
   title: string;
-  prizes: string[];
+  description: string;
+  prize: string;
 };
+
+type PrizeCategory = {
+  category: string;
+  prize: Prize;
+}
+
 
 type Faq = {
   question: string;
