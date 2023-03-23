@@ -1,0 +1,93 @@
+{
+  "prizes": [
+    [
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/winner.svg",
+          "title": "Overall Winner",
+          "description": "Overall Winner of the event",
+          "prize": "NPR 50,000"
+        }
+      },
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/winner.svg",
+          "title": "Track Winner",
+          "description": "Track Winner of the event",
+          "prize": "NPR 15,000"
+        }
+      }
+    ],
+    [
+      {
+        "category": "Polygon",
+        "prize": {
+          "icon": "/images/prizes/polygon.svg",
+          "title": "Ethereum + Polygon Track",
+          "description": "Best hack built on Ethereum + Polygon",
+          "prize": "USD 200"
+        }
+      },
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/polygon.svg",
+          "title": "Ethereum Track",
+          "description": "Best hack built on Ethereum",
+          "prize": "USD 150"
+        }
+      }
+    ],
+    [
+      {
+        "category": "Filecoin",
+        "prize": {
+          "icon": "/images/prizes/filecoin.svg",
+          "title": "Filecoin Track",
+          "description": "Best use of Filecoin and/or IPFS",
+          "prize": "USD 200"
+        }
+      },
+      {
+        "category": "Replit",
+        "prize": {
+          "icon": "/images/prizes/replit.svg",
+          "title": "Replit Track",
+          "description": "Winning Project deployed on Replit",
+          "prize": "USD 150"
+        }
+      }
+    ],
+    [
+      {
+        "category": "Solana",
+        "prize": {
+          "icon": "/images/prizes/solana.svg",
+          "title": "young gun",
+          "description": "for the best project beginners just starting out on Solana",
+          "prize": "USD 100"
+        }
+      },
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/solana.svg",
+          "title": "master glasseater",
+          "description": "for the best advanced project that is almost ready for full-time",
+          "prize": "USD 500"
+        }
+      },
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/solana.svg",
+          "title": "rising teknoking",
+          "description": "for the best project that goes into depth, demonstrating higher-order code",
+          "prize": "USD 250"
+        }
+      }
+    ]
+  ]
+}
