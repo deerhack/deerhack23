@@ -3,7 +3,12 @@ type Track = {
   title: string;
   description: string;
 };
-
+type CarouselCard = {
+  link: string;
+  img: string;
+  name: string;
+  role: string;
+};
 type Prize = {
   icon: string;
   title: string;
@@ -26,12 +31,12 @@ type Sponsor = {
   name: string;
   logo: string;
   link: string;
-}
+};
 
 type SponsorGroup = {
   title: string;
   sponsors: Sponsor[];
-}
+};
 
 type PageData = {
   socialLinks: {
