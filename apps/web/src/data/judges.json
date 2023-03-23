@@ -1,0 +1,46 @@
+{
+  "judges": [
+    {
+      "id": 1,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Github Campus Expert",
+      "name": "David Beckham"
+    },
+    {
+      "id": 2,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Sr. Data Analyst",
+      "name": "David Beckham"
+    },
+    {
+      "id": 3,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Design Lead at Google",
+      "name": "David Beckham"
+    },
+    {
+      "id": 4,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Github Campus Expert 2",
+      "name": "David Beckham"
+    },
+    {
+      "id": 5,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Github Campus Expert 2",
+      "name": "David Beckham"
+    },
+    {
+      "id": 6,
+      "link": "linkhere",
+      "img": "/images/Ellipse2.png",
+      "role": "Github Campus Expert 3",
+      "name": "David Beckham"
+    }
+  ]
+}

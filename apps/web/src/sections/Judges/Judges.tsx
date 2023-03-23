@@ -1,39 +1,14 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-interface Props {}
+import { Carousel } from "@/components/Carousel";
+type Props = {
+  carouselCard: CarouselCard[];
+};
 
-const Judges = ({}) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-  };
+const Judges = ({ carouselCard }: Props) => {
   return (
-    <div className="bg-gradient-to-r from-[#100A28] to-[#4F3E93]">
-      Judges here
-      <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-      </Slider>
+    <div className="bg-gradient-to-r from-[#100A28] to-[#4F3E93] py-24 px-10 text-white">
+      <Carousel carouselCard={carouselCard} />
     </div>
   );
 };

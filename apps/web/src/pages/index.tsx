@@ -14,10 +14,11 @@ type Props = {
   prizes: Prize[];
   faqs: Faq[];
   sponsors: SponsorGroup[];
+  judges: CarouselCard[];
   pageData: PageData;
 };
 
-const Home = ({ tracks, prizes, faqs, sponsors, pageData }: Props) => {
+const Home = ({ tracks, prizes, faqs, sponsors, judges, pageData }: Props) => {
   return (
     <Layout pageData={pageData}>
       <>
@@ -28,7 +29,7 @@ const Home = ({ tracks, prizes, faqs, sponsors, pageData }: Props) => {
         <Info />
         <Tracks tracks={tracks} />
         <Prizes prizes={prizes} />
-        <Judges />
+        <Judges carouselCard={judges} />
         <Faq faqs={faqs} />
         <Sponsors sponsorGroups={sponsors} />
       </>
@@ -44,6 +45,7 @@ export async function getStaticProps() {
   const faqData = await readDataFile("faqs.json");
   const pageData = await readDataFile("pagedata.json");
   const sponsorData = await readDataFile("sponsors.json");
+  const judgesData = await readDataFile("judges.json");
 
   return {
     props: {
@@ -51,6 +53,7 @@ export async function getStaticProps() {
       prizes: prizesData["prizes"],
       faqs: faqData["faqs"],
       sponsors: sponsorData["sponsorGroups"],
+      judges: judgesData["judges"],
       pageData: pageData,
     },
   };
