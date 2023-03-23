@@ -1,4 +1,5 @@
 import { TrophieLogo } from "@/assets/icons";
+import Image from "next/image";
 
 type Props = {
   prize: Prize;
@@ -7,22 +8,21 @@ type Props = {
 const PrizeCard = ({ prize }: Props) => {
   return (
     <div>
-      <div className="relative max-w-sm">
-        <div className="h-40 bg-color-3 w-full rounded-t-xl"></div>
+      <div className="relative max-w-2xl">
+        <div className="h-40 bg-secondary w-full rounded-t-xl"></div>
         <div className="left-0 right-0 absolute flex justify-center">
-          <div className="top-32 p-10 rounded-full bg-primary mx-auto inline-block translate-y-[-50%]">
-            <TrophieLogo />
+          <div className="top-32 p-8 rounded-full bg-white mx-auto inline-block translate-y-[-50%]">
+            <Image src={prize.icon} alt={prize.title} width={100} height={100} className="object-contain w-20 h-20" />
           </div>
         </div>
-        <div className="bg-white py-20 min-h-[600px] rounded-b-xl">
-          <h4 className="text-center font-mont font-bold text-2xl">
+        <div className="bg-white pt-24 pb-11 rounded-b-xl">
+          <h4 className="text-center font-mont font-bold text-xl md:text-2xl lg:text-3xl">
             {prize.title}
           </h4>
-          <ul className="px-16 mt-5 font-poppins text-2xl list-disc leading-9">
-            {prize.prizes.map((p) => (
-              <li key={p}>{p}</li>
-            ))}
-          </ul>
+          <div className="font-mont font-medium italic text-sm lg:text-base text-center h-16">
+            {prize.description}
+          </div>
+          <div className="font-mont font-bold text-3xl md:text-4xl lg:text-6xl mt-12 text-center text-secondary">{prize.prize}</div>
         </div>
       </div>
     </div>

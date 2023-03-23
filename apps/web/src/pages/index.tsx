@@ -11,7 +11,7 @@ import { Judges } from "@/sections/Judges";
 
 type Props = {
   tracks: Track[];
-  prizes: Prize[];
+  prizes: PrizeCategory[][];
   faqs: Faq[];
   sponsors: SponsorGroup[];
   judges: CarouselCard[];
@@ -28,8 +28,8 @@ const Home = ({ tracks, prizes, faqs, sponsors, judges, pageData }: Props) => {
         <Hero discordUrl={pageData.socialLinks.discord} />
         <Info />
         <Tracks tracks={tracks} />
-        <Prizes prizes={prizes} />
-        <Judges carouselCard={judges} />
+        <Prizes prizeCategories={prizes} />
+        {/* <Judges carouselCard={judges} /> */}
         <Faq faqs={faqs} />
         <Sponsors sponsorGroups={sponsors} />
       </>
