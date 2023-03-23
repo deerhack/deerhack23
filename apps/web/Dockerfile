@@ -37,21 +37,29 @@ COPY turbo.json turbo.json
 
 RUN turbo run build --filter=web...
 
-FROM node:alpine AS runner
-WORKDIR /app
+# FROM node:alpine AS runner
+# WORKDIR /app
 
-# Don't run production as root
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-USER nextjs
+# # Don't run production as root
+# RUN addgroup --system --gid 1001 nodejs
+# RUN adduser --system --uid 1001 nextjs
+# USER nextjs
 
-COPY --from=installer /app/apps/web/next.config.js .
-COPY --from=installer /app/apps/web/package.json .
+# COPY --from=installer /app/apps/web/next.config.js .
+# COPY --from=installer /app/apps/web/package.json .
 
-# Automatically leverage output traces to reduce image size
-# https://nextjs.org/docs/advanced-features/output-file-tracing
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/static ./apps/web/.next/static
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
+# RUN yarn install
 
-CMD node apps/web/server.js
+# # Automatically leverage output traces to reduce image size
+# # https://nextjs.org/docs/advanced-features/output-file-tracing
+# # COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
+# # COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/static ./apps/web/.next/static
+# # COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
+# # COPY --from=installer --chown=nextjs:nodejs /app/node_modules/* ./node_modules/
+# # COPY --from=installer --chown=nextjs:nodejs /app/apps/web/node_modules/* ./node_modules/
+# COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next ./.next
+# COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./public
+
+
+WORKDIR /app/apps/web
+CMD yarn start

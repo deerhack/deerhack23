@@ -13,10 +13,6 @@ const nextConfig = {
       'cdn-icons-png.flaticon.com'
     ]
   },
-  output: 'standalone',
-  experimental: {
-    outputFileTracingRoot: path.join(__dirname, "../../"),
-  },
 }
 
 module.exports = nextConfig
