@@ -92,7 +92,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <div
-        className={`${poppins.variable} ${montserrat.variable} min-w-[300px]`}
+        className={`${poppins.variable} ${montserrat.variable} min-w-[312px]`}
       >
         <Component {...pageProps} />
       </div>
