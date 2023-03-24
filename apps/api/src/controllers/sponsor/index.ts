@@ -1,0 +1,1 @@
+export {default as SponsorController} from "./sponsor";

@@ -126,7 +126,7 @@ model tracks {
   updated_at  DateTime @updatedAt
 }
 
-model sponsors {
+model sponsors  {
   id          String @id @unique @default(uuid())
   name        String 
   logo        String
