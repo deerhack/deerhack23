@@ -126,6 +126,16 @@ model tracks {
   updated_at  DateTime @updatedAt
 }
 
+model sponsors {
+  id          String @id @unique @default(uuid())
+  name        String 
+  logo        String
+  sponsor_group SponsorGroups
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+}
+
 enum Role {
   PARTICIPANT
   ADMIN
@@ -140,4 +150,14 @@ enum Status {
 enum Notification_Type {
   GLOBAL
   USER
+}
+
+enum SponsorGroups {
+  GOLD
+  SILVER
+  BRONZE
+  ECOMMERCE_PARTNER
+  RANKING_PARTNER
+  SUPPORTED_BY
+
 }
