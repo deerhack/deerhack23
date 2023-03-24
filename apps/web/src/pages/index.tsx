@@ -1,13 +1,13 @@
-import { Hero } from "@/sections/Hero";
-import { Info } from "@/sections/Info";
-import { Tracks } from "@/sections/Tracks";
-import { Prizes } from "@/sections/Prizes";
+import { Hero } from "@/sections/home/Hero";
+import { Info } from "@/sections/home/Info";
+import { Tracks } from "@/sections/home/Tracks";
+import { Prizes } from "@/sections/home/Prizes";
 import readDataFile from "@/utilities/readDataFile";
-import { Faq } from "@/sections/Faq";
+import { Faq } from "@/sections/home/Faq";
 import { Layout } from "@/components/Layout";
 import Head from "next/head";
-import { Sponsors } from "@/sections/Sponsors";
-import { Judges } from "@/sections/Judges";
+import { Sponsors } from "@/sections/home/Sponsors";
+import { Judges } from "@/sections/home/Judges";
 
 type Props = {
   tracks: Track[];
