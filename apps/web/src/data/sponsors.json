@@ -36,6 +36,16 @@
       ]
     },
     {
+      "title": "Bronze Sponsor",
+      "sponsors": [
+        {
+          "name": "Sticker Mule",
+          "link": "https://mule.to/p3xf",
+          "logo": "/images/sponsors/stickermule.svg"
+        }
+      ]
+    },
+    {
       "title": "Ecommerce Partner",
       "sponsors": [
         {
