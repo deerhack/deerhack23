@@ -130,6 +130,7 @@ model sponsors  {
   id          String @id @unique @default(uuid())
   name        String 
   logo        String
+  link        String
   sponsor_group SponsorGroups
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
