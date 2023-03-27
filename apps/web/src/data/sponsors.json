@@ -36,22 +36,12 @@
       ]
     },
     {
-      "title": "Ecommerce Partner",
+      "title": "Bronze Sponsor",
       "sponsors": [
         {
-          "name": "Daraz",
-          "link": "https://www.daraz.com.np/",
-          "logo": "/images/sponsors/daraz.png"
-        }
-      ]
-    },
-    {
-      "title": "Ranking Partner",
-      "sponsors": [
-        {
-          "name": "The Everest List",
-          "link": "https://theeverestlist.org/",
-          "logo": "/images/sponsors/everestlist.png"
+          "name": "Sticker Mule",
+          "link": "https://mule.to/p3xf",
+          "logo": "/images/sponsors/stickermule.svg"
         }
       ]
     },
@@ -67,21 +57,71 @@
           "name": "Hamro Patro",
           "link": "https://www.hamropatro.com/",
           "logo": "/images/sponsors/hamro_patro.svg"
+        }
+      ]
+    },
+    {
+      "title": "Ecommerce Partner",
+      "sponsors": [
+        {
+          "name": "Daraz",
+          "link": "https://www.daraz.com.np/",
+          "logo": "/images/sponsors/daraz.png"
+        }
+      ]
+    },
+    {
+      "title": "Media Partners",
+      "sponsors": [
+        {
+          "name": "DWIT News",
+          "link": "https://dwitnews.com/",
+          "logo": "/images/sponsors/dwit-news-logo.png"
+        }
+      ]
+    },
+    {
+      "title": "Ranking Partner",
+      "sponsors": [
+        {
+          "name": "The Everest List",
+          "link": "https://theeverestlist.org/",
+          "logo": "/images/sponsors/everestlist.png"
+        }
+      ]
+    },
+    {
+      "title": "Swags Partner",
+      "sponsors": [
+        {
+          "name": "Balsamiq",
+          "link": "https://balsamiq.com/",
+          "logo": "/images/sponsors/balsamiq-logo.png"
+        }
+      ]
+    },
+    {
+      "title": "Community Partners",
+      "sponsors": [
+        {
+          "name": "CSIT Association of Nepal",
+          "link": "https://csitan.org.np",
+          "logo": "/images/sponsors/csit-association-of-nepal.png"
         },
         {
-          "name": "Hawk Ai",
-          "link": "https://hawkai.online/",
-          "logo": "/images/sponsors/hawkai.png"
+          "name": "Code for Change",
+          "link": "https://codeforchangenepal.com/",
+          "logo": "/images/sponsors/code-for-change.png"
         },
         {
-          "name": "Atkans",
-          "link": "",
-          "logo": "/images/sponsors/atkans.png"
+          "name": "Code for Nepal",
+          "link": "https://codefornepal.org/",
+          "logo": "/images/sponsors/code-for-nepal.png"
         },
         {
-          "name": "Big Digital",
-          "link": "https://bigdigital.com.np/",
-          "logo": "/images/sponsors/bigdigital.png"
+          "name": "COESIS",
+          "link": "https://www.facebook.com/coesis.np",
+          "logo": "/images/sponsors/coesis.png"
         }
       ]
     }

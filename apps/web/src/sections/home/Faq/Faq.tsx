@@ -18,7 +18,7 @@ const Faq = ({ faqs }: Props) => {
           FAQ
         </h2>
         <div className="mt-16 justify-between px-5 flex flex-col lg:flex-row gap-5">
-          <div className="flex flex-col gap-y-5 lg:gap-y-1 w-full">
+          <div className="flex flex-col gap-y-5 w-full">
             {faqs.map((faq) => (
               <FaqCard key={faq.question} faq={faq} />
             ))}
