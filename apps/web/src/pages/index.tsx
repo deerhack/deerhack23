@@ -29,7 +29,7 @@ const Home = ({ tracks, prizes, faqs, sponsors, judges, pageData }: Props) => {
         <Info />
         <Tracks tracks={tracks} />
         <Prizes prizeCategories={prizes} />
-        {/* <Judges carouselCard={judges} /> */}
+        <Judges carouselCard={judges} />
         <Faq faqs={faqs} />
         <Sponsors sponsorGroups={sponsors} />
       </>
