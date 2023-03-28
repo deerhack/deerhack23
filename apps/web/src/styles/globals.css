@@ -10,3 +10,18 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+.item::before {
+  content: " ";
+  border-left: 2px solid rgb(255 190 12 / 1);
+  position: absolute;
+  left: 0;
+  top: calc(53% + 26px);
+  height: 5.6em;
+}
+/* .item:first-child:before {
+  top: 15px;
+} */
+.item:last-child:before {
+  height: 0 !important;
+}
