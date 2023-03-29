@@ -31,7 +31,7 @@ const Layout = ({ children, pageData, transparentNav = true }: Props) => {
         className={clsx(
           isAtTop ? "bg-transparent" : "bg-secondary",
           "text-white w-full transition z-10",
-          transparentNav ? "fixed" : "relative"
+          transparentNav ? "fixed" : "sticky top-0"
         )}
       >
         <Navbar />
