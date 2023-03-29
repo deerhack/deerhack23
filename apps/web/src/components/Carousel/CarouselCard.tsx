@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 type Props = {
   link: string;
   img: string;
@@ -8,8 +10,13 @@ type Props = {
 
 const CarouselCard = ({ link, img, name, role }: Props) => {
   return (
-    <section className="flex flex-col items-center ">
-      <a href={link}>
+    <motion.div
+      className="flex flex-col items-center my-6 "
+      whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+    >
+      <a href={link} target="_blank" rel="noreferrer">
         <Image
           src={img}
           alt="judges image"
@@ -20,7 +27,7 @@ const CarouselCard = ({ link, img, name, role }: Props) => {
         <h3>{name}</h3>
         <p>{role}</p>
       </a>
-    </section>
+    </motion.div>
   );
 };
 
