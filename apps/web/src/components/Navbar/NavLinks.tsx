@@ -24,7 +24,7 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
-        <Link href="/schedule" scroll={false}>
+        <Link href="/schedule">
           Schedule
         </Link>
       </li>

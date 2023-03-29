@@ -19,10 +19,10 @@ const Schedule = ({ pageData, eventsData }: Props) => {
   };
 
   return (
-    <Layout pageData={pageData}>
+    <Layout pageData={pageData} transparentNav={false}>
       <>
         <Head>
-          <title>DeerHack 2023 - Fawning Over Innovation</title>
+          <title>Schedule - DeerHack 2023</title>
         </Head>
         <Events
           currentData={eventsData[currentIndex]}
