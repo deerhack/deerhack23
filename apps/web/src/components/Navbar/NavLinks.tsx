@@ -24,11 +24,15 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
+        <Link href="/schedule" scroll={false}>
+          Schedule
+        </Link>
+      </li>
+      <li>
         <Link href={"/code-of-conduct"}>Code of Conduct</Link>
       </li>
     </>
   );
 };
-
 
 export default NavLinks;

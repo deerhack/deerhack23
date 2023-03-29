@@ -16,11 +16,22 @@ type Prize = {
   prize: string;
 };
 
+type EventData = {
+  id: number;
+  start_time: string;
+  end_time: string;
+  description: string;
+};
+type Events = {
+  date: string;
+  title: string;
+  event: EventData[];
+};
+
 type PrizeCategory = {
   category: string;
   prize: Prize;
-}
-
+};
 
 type Faq = {
   question: string;

@@ -1,0 +1,186 @@
+{
+  "events": [
+    {
+      "date": "May 4th, 2023",
+      "title": "Pre Event",
+      "event": [
+        {
+          "id": 1,
+          "start_time": "11:00 AM",
+          "end_time": "12:30 PM",
+          "description": "Welcome Ceremony"
+        },
+        {
+          "id": 2,
+          "start_time": "12:30 AM",
+          "end_time": "2:00 PM",
+          "description": "Snacks and Drinks"
+        },
+        {
+          "id": 3,
+          "start_time": "2:00 PM",
+          "end_time": "3:00 PM",
+          "description": "Ice Breaker Game"
+        },
+        {
+          "id": 4,
+          "start_time": "3:00 PM",
+          "end_time": "4:00 PM",
+          "description": "Team Formation and Registration"
+        },
+        {
+          "id": 5,
+          "start_time": "4:00 PM",
+          "end_time": "5:00 PM",
+          "description": "Team Bonding Games"
+        },
+        {
+          "id": 6,
+          "start_time": "5:00 PM",
+          "description": "Closing Off"
+        }
+      ]
+    },
+    {
+      "date": "May 5th, 2023",
+      "title": "Day 1",
+      "event": [
+        {
+          "id": 1,
+          "start_time": "2:00 PM",
+          "end_time": "3:00 PM",
+          "description": "Check-in | Teams"
+        },
+        {
+          "id": 2,
+          "start_time": "3:00 PM",
+          "end_time": "4:30 PM",
+          "description": "Opening Ceremony"
+        },
+        {
+          "id": 3,
+          "start_time": "4:30 PM",
+          "end_time": "6:00 PM",
+          "description": "Snacks & Drinks"
+        },
+        {
+          "id": 4,
+          "start_time": "6:00 PM",
+          "end_time": "8:00 PM",
+          "description": "Talk Session 01"
+        },
+        {
+          "id": 5,
+          "start_time": "8:00 PM",
+          "end_time": "10:00 PM",
+          "description": "Dinner"
+        },
+        {
+          "id": 6,
+          "start_time": "10:00 PM",
+          "description": "Fun Game 01"
+        }
+      ]
+    },
+    {
+      "date": "May 6th, 2023",
+      "title": "Day 2",
+      "event": [
+        {
+          "id": 1,
+          "start_time": "7:00 AM",
+          "end_time": "10:00 AM",
+          "description": "Breakfast"
+        },
+        {
+          "id": 2,
+          "start_time": "10:00 AM",
+          "end_time": "11:00 AM",
+          "description": "Lunch"
+        },
+        {
+          "id": 3,
+          "start_time": "11:00 AM",
+          "end_time": "1:00 PM",
+          "description": "Workshop 01"
+        },
+        {
+          "id": 4,
+          "start_time": "1:00 PM",
+          "end_time": "2:00 PM",
+          "description": "Talk Session 02"
+        },
+        {
+          "id": 5,
+          "start_time": "2:00 PM",
+          "end_time": "3:00 PM",
+          "description": "Snacks & Drinks"
+        },
+        {
+          "id": 6,
+          "start_time": "3:00 PM",
+          "end_time": "5:00 PM",
+          "description": "Fun Game 02"
+        },
+        {
+          "id": 7,
+          "start_time": "5:00 PM",
+          "end_time": "8:00 PM",
+          "description": "Workshop 02"
+        },
+        {
+          "id": 8,
+          "start_time": "8:00 PM",
+          "description": "Dinner"
+        }
+      ]
+    },
+    {
+      "date": "May 7th, 2023",
+      "title": "Day 3",
+      "event": [
+        {
+          "id": 1,
+          "start_time": "5:00 AM",
+          "end_time": "7:00 AM",
+          "description": "Project Submission"
+        },
+        {
+          "id": 2,
+          "start_time": "7:00 AM",
+          "end_time": "8:00 AM",
+          "description": "Breakfast"
+        },
+        {
+          "id": 3,
+          "start_time": "7:00 AM",
+          "end_time": "8:00 AM",
+          "description": "Project Submission"
+        },
+        {
+          "id": 4,
+          "start_time": "8:00 AM",
+          "end_time": "10:00 AM",
+          "description": "Final Cull"
+        },
+        {
+          "id": 5,
+          "start_time": "10:00 AM",
+          "end_time": "12:00 PM",
+          "description": "Pitching Session"
+        },
+        {
+          "id": 6,
+          "start_time": "12:00 PM",
+          "end_time": "1:00 PM",
+          "description": "Lunch"
+        },
+        {
+          "id": 7,
+          "start_time": "1:00 PM",
+          "description": "Winner Announcement & Closing Ceremony"
+        }
+      ]
+    }
+  ]
+}
