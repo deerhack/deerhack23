@@ -42,6 +42,11 @@
           "name": "Sticker Mule",
           "link": "https://mule.to/p3xf",
           "logo": "/images/sponsors/stickermule.svg"
+        },
+        {
+          "name": "NIBL Ace Capital",
+          "link": "https://www.niblcapital.com/",
+          "logo": "/images/sponsors/nibl_ace_capital.png"
         }
       ]
     },
@@ -57,6 +62,11 @@
           "name": "Hamro Patro",
           "link": "https://www.hamropatro.com/",
           "logo": "/images/sponsors/hamro_patro.svg"
+        },
+        {
+          "name": "Hawkai",
+          "link": "https://hawkai.online/",
+          "logo": "/images/sponsors/hawkai.png"
         }
       ]
     },
@@ -76,7 +86,12 @@
         {
           "name": "DWIT News",
           "link": "https://dwitnews.com/",
-          "logo": "/images/sponsors/dwit-news-logo.png"
+          "logo": "/images/sponsors/dwitnews.png"
+        },
+        {
+          "name": "TechLekh",
+          "link": "https://techlekh.com/",
+          "logo": "/images/sponsors/techlekh.png"
         }
       ]
     },
@@ -106,7 +121,7 @@
         {
           "name": "CSIT Association of Nepal",
           "link": "https://csitan.org.np",
-          "logo": "/images/sponsors/csit-association-of-nepal.png"
+          "logo": "/images/sponsors/csitan.png"
         },
         {
           "name": "Code for Change",
