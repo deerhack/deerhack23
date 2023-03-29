@@ -19,6 +19,11 @@
     "test": "turbo run test"
   },
   "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "prisma": "^4.11.0",
     "turbo": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/express-fileupload": "^1.4.1"
   }
 }
