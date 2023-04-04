@@ -1,6 +1,4 @@
 import { Router,Request,Response } from "express"
-import path from "path"
-// import isAuthenticated from "../middleware/isAuthenticated"
 import { SponsorController } from "../controllers/sponsor"
 import { isAuthenticated } from "../middleware"
 import validateSponsor from "../middleware/validateSponsor"
@@ -9,11 +7,8 @@ import validateSponsor from "../middleware/validateSponsor"
 
 const router  = Router()
 
-
 // use isAuthenticated in production after / and before upload middleware.
 router.post('/',validateSponsor,isAuthenticated,SponsorController.create)
-
-
 
 router.get('/',SponsorController.index)
 

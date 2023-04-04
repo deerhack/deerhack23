@@ -131,7 +131,8 @@ model sponsors  {
   name        String 
   logo        String
   link        String
-  sponsor_group SponsorGroups
+  sponsor_group SponsorGroups @relation(fields: [sponsor_group_id],references: [id])
+  sponsor_group_id String @unique
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
 
@@ -153,12 +154,18 @@ enum Notification_Type {
   USER
 }
 
-enum SponsorGroups {
-  GOLD
-  SILVER
-  BRONZE
-  ECOMMERCE_PARTNER
-  RANKING_PARTNER
-  SUPPORTED_BY
-
+// enum SponsorGroups {
+//   GOLD
+//   SILVER
+//   BRONZE
+//   ECOMMERCE_PARTNER
+//   RANKING_PARTNER
+//   SUPPORTED_BY
+//   GIFTING_PARTNER
+// }
+model SponsorGroups{
+  id String @unique @default(uuid())
+  name String
+  isPartOf sponsors?
+  created_at DateTime @default(now())
 }

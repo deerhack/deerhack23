@@ -1,6 +1,6 @@
 import express, { Express } from "express";
 import dotenv from "dotenv";
-import { AuthRouter } from "./routes";
+import { AuthRouter, SponsorGroupRouter } from "./routes";
 import { SponsorRouter } from "./routes";
 import { setUser } from "./middleware";
 import cookieParser from "cookie-parser";
@@ -31,6 +31,7 @@ app.use(fileUpload(fileUploadConfig))
 // routes
 app.use("/api/auth", AuthRouter);
 app.use("/api/sponsor",SponsorRouter);
+app.use("/api/sponsor/group",SponsorGroupRouter)
 
 function init() {
   console.log(`Server running on port ${PORT}`);

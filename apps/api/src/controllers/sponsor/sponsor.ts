@@ -62,7 +62,7 @@ class SponsorController {
             }
         })
         if(!given_sponsor_data){
-            return res.status(404).json({error:true,success:false})
+            return res.status(404).json({error:"No Such Sponsor Data.",success:false})
         }
         // deletes logo image
         deleteSponsorLogo(path.join(logo_save_path,path.basename(given_sponsor_data.logo)))
@@ -76,4 +76,6 @@ class SponsorController {
         return res.status(200).json({error:false,success:true,deleted})
     }
 }
+
+
 export default SponsorController
