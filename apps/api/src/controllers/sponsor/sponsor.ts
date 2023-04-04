@@ -16,10 +16,10 @@ class SponsorController {
 
                 const added_data =  await prisma.sponsors.create({
                     data:{
-                        name:req.body.name,
+                        name:res.locals.validated.name,
                         logo:`${req.protocol}://${req.get('host')}/public/${file_name}`,
-                        sponsor_group:req.body.sponsor_group,
-                        link:req.body.link
+                        sponsor_group_id:res.locals.validated.sponsor_group_id,
+                        link:res.locals.validated.link,
                     }
                 })
 
@@ -52,6 +52,7 @@ class SponsorController {
     }
 
     public static update = (req : Request, res: Response)=>{
+        
 
     }
 

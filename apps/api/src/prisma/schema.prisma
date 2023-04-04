@@ -165,7 +165,7 @@ enum Notification_Type {
 // }
 model SponsorGroups{
   id String @unique @default(uuid())
-  name String
+  name String @unique
   isPartOf sponsors?
   created_at DateTime @default(now())
 }
