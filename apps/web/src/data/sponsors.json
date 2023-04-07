@@ -87,6 +87,16 @@
           "name": "Hawkai",
           "link": "https://hawkai.online/",
           "logo": "/images/sponsors/hawkai.png"
+        },
+        {
+          "name": "Makkusé",
+          "link": "https://makkuse.com/",
+          "logo": "/images/sponsors/makkuse-logo.png"
+        },
+        {
+          "name": "eSatya",
+          "link": "https://esatya.io/",
+          "logo": "/images/sponsors/esatya.png"
         }
       ]
     },
@@ -172,11 +182,6 @@
           "name": "Microsoft Student Ambassador",
           "link": "https://studentambassadors.microsoft.com/",
           "logo": "/images/sponsors/mlsa.png"
-        },
-        {
-          "name": "Makkusé",
-          "link": "https://makkuse.com/",
-          "logo": "/images/sponsors/makkuse-logo.png"
         }
       ]
     }
