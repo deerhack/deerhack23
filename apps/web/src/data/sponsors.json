@@ -44,6 +44,11 @@
           "logo": "/images/sponsors/stickermule.svg"
         },
         {
+          "name": "Nepal Bank Limited",
+          "link": "https://nepalbank.com.np/",
+          "logo": "/images/sponsors/nepal_bank.png"
+        },
+        {
           "name": "NIBL Ace Capital",
           "link": "https://www.niblcapital.com/",
           "logo": "/images/sponsors/nibl_ace_capital.png"
@@ -54,6 +59,11 @@
       "title": "Supported By",
       "sponsors": [
         {
+          "name": "Github Education",
+          "link": "https://education.github.com/",
+          "logo": "/images/sponsors/github-logo.png"
+        },
+        {
           "name": "Deerhold",
           "link": "https://deerhold.com/",
           "logo": "/images/sponsors/deerhold.png"
@@ -62,6 +72,16 @@
           "name": "Hamro Patro",
           "link": "https://www.hamropatro.com/",
           "logo": "/images/sponsors/hamro_patro.svg"
+        },
+        {
+          "name": "WorldLink Communications",
+          "link": "https://worldlink.com.np/",
+          "logo": "/images/sponsors/wlinkLogo-white.svg"
+        },
+        {
+          "name": "Programiz",
+          "link": "https://www.programiz.com/",
+          "logo": "/images/sponsors/pc_logo.svg"
         },
         {
           "name": "Hawkai",
@@ -116,6 +136,16 @@
       ]
     },
     {
+      "title": "Beverage Partner",
+      "sponsors": [
+        {
+          "name": "Amrapali",
+          "link": "https://amrapalibeverage.com/",
+          "logo": "/images/sponsors/amrapali-logo.png"
+        }
+      ]
+    },
+    {
       "title": "Community Partners",
       "sponsors": [
         {
@@ -137,6 +167,16 @@
           "name": "COESIS",
           "link": "https://www.facebook.com/coesis.np",
           "logo": "/images/sponsors/coesis.png"
+        },
+        {
+          "name": "Microsoft Student Ambassador",
+          "link": "https://studentambassadors.microsoft.com/",
+          "logo": "/images/sponsors/mlsa.png"
+        },
+        {
+          "name": "Makkusé",
+          "link": "https://makkuse.com/",
+          "logo": "/images/sponsors/makkuse-logo.png"
         }
       ]
     }
