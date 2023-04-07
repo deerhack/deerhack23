@@ -72,6 +72,9 @@ const Footer = ({ socialLinks, contactEmail }: Props) => {
             Mode: <span className="text-primary">In-Person</span>
           </div>
           <div className="font-poppins md:text-xl font-medium text-white mt-3">
+            Venue: <span className="text-primary">Deerwalk Complex</span>
+          </div>
+          <div className="font-poppins md:text-xl font-medium text-white mt-3">
             Date: <span className="text-primary">5th - 7th May, 2023</span>
           </div>
         </div>
