@@ -18,11 +18,9 @@ const EventCard = ({ event }: Props) => {
             </i>
             <div className="w-full flex flex-col  ">
               <div className="eventbox relative pl-[10vw] py-3  text-base lg:text-xl font-medium font-poppins md:pl-[4vw]">
-                <div className="event-time text-white px-2  ">{`${
-                  item.start_time
-                }  ${
-                  item.end_time != undefined ? "- " + item.end_time : ""
-                }`}</div>
+                <div className="event-time text-white px-2  ">
+                  {item.start_time}
+                </div>
                 <div className="event-description px-5 py-3  w-full   rounded-xl bg-primary ">
                   {item.description}
                 </div>

@@ -49,6 +49,11 @@
       "title": "Supported By",
       "sponsors": [
         {
+          "name": "Github Education",
+          "link": "https://education.github.com/",
+          "logo": "/images/sponsors/github-logo.png"
+        },
+        {
           "name": "Deerhold",
           "link": "https://deerhold.com/",
           "logo": "/images/sponsors/deerhold.png"
@@ -101,6 +106,16 @@
       ]
     },
     {
+      "title": "Beverage Partner",
+      "sponsors": [
+        {
+          "name": "Amrapali",
+          "link": "https://amrapalibeverage.com/",
+          "logo": "/images/sponsors/amrapali-logo.png"
+        }
+      ]
+    },
+    {
       "title": "Community Partners",
       "sponsors": [
         {
@@ -122,6 +137,11 @@
           "name": "COESIS",
           "link": "https://www.facebook.com/coesis.np",
           "logo": "/images/sponsors/coesis.png"
+        },
+        {
+          "name": "Microsoft Student Ambassador",
+          "link": "https://studentambassadors.microsoft.com/",
+          "logo": "/images/sponsors/spmlsa.png"
         }
       ]
     }
