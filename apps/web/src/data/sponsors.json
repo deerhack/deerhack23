@@ -42,6 +42,11 @@
           "name": "Sticker Mule",
           "link": "https://mule.to/p3xf",
           "logo": "/images/sponsors/stickermule.svg"
+        },
+        {
+          "name": "Nepal Bank Limited",
+          "link": "https://nepalbank.com.np/",
+          "logo": "/images/sponsors/nepal_bank.png"
         }
       ]
     },
@@ -62,6 +67,16 @@
           "name": "Hamro Patro",
           "link": "https://www.hamropatro.com/",
           "logo": "/images/sponsors/hamro_patro.svg"
+        },
+        {
+          "name": "WorldLink Communications",
+          "link": "https://worldlink.com.np/",
+          "logo": "/images/sponsors/wlinkLogo-white.svg"
+        },
+        {
+          "name": "Programiz",
+          "link": "https://www.programiz.com/",
+          "logo": "/images/sponsors/pc_logo.svg"
         }
       ]
     },
@@ -142,6 +157,11 @@
           "name": "Microsoft Student Ambassador",
           "link": "https://studentambassadors.microsoft.com/",
           "logo": "/images/sponsors/mlsa.png"
+        },
+        {
+          "name": "Makkusé",
+          "link": "https://makkuse.com/",
+          "logo": "/images/sponsors/makkuse-logo.png"
         }
       ]
     }
