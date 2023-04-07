@@ -143,19 +143,13 @@
           "id": 1,
           "start_time": "5:00 AM",
           "end_time": "7:00 AM",
-          "description": "Project Submission"
+          "description": "Check-Out | Teams"
         },
         {
           "id": 2,
           "start_time": "7:00 AM",
           "end_time": "8:00 AM",
           "description": "Breakfast"
-        },
-        {
-          "id": 3,
-          "start_time": "7:00 AM",
-          "end_time": "8:00 AM",
-          "description": "Project Submission"
         },
         {
           "id": 4,
