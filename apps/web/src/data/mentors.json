@@ -1,0 +1,61 @@
+{
+  "mentors": [
+    {
+      "id": 1,
+      "link": "https://www.linkedin.com/in/roshan-bhatta-092bb672/",
+      "img": "/images/mentors/roshan_bhatta.png",
+      "role": "",
+      "name": "Roshan Bhatta"
+    },
+    {
+      "id": 2,
+      "link": "https://www.linkedin.com/in/rahulrajshah/",
+      "img": "/images/mentors/rahul_raj_shah.jpg",
+      "role": "",
+      "name": "Rahul Raj Shah"
+    },
+    {
+      "id": 3,
+      "link": "https://www.linkedin.com/in/avinash-mishra-np/",
+      "img": "/images/mentors/avinash_mishra.png",
+      "role": "",
+      "name": "Avinash Mishra"
+    },
+    {
+      "id": 4,
+      "link": "https://www.linkedin.com/in/shubhtiwari5/",
+      "img": "/images/mentors/shubham_tiwari.jpg",
+      "role": "",
+      "name": "Er. Shubham Tiwari"
+    },
+    {
+      "id": 5,
+      "link": "https://www.linkedin.com/in/amit-k-6861261b1/",
+      "img": "/images/mentors/amit_khatri.jpg",
+      "role": "",
+      "name": "Amit Khatri"
+    },
+    {
+      "id": 6,
+      "link": "https://www.linkedin.com/in/sarunluitel/",
+      "img": "/images/mentors/sarun_luitel.jpg",
+      "role": "",
+      "name": "Sarun Luitel"
+    },
+    {
+      "id": 7,
+      "link": "https://www.linkedin.com/in/aashutosh-poudel-a43b80118/",
+      "img": "/images/mentors/aashutosh_poudel.jpg",
+      "role": "",
+      "name": "Aashutosh Poudel"
+    },
+    {
+      "id": 8,
+      "link": "https://www.linkedin.com/in/nirishamanandhar/",
+      "img": "/images/mentors/nirisha_manandhar.jpg",
+      "role": "",
+      "name": "Nirisha Manandhar"
+    }
+
+  ]
+}

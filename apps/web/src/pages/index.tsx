@@ -7,7 +7,7 @@ import { Faq } from "@/sections/home/Faq";
 import { Layout } from "@/components/Layout";
 import Head from "next/head";
 import { Sponsors } from "@/sections/home/Sponsors";
-import { Judges } from "@/sections/home/Judges";
+import { ListCarousel } from "@/sections/home/ListCarousel";
 
 type Props = {
   tracks: Track[];
@@ -15,10 +15,11 @@ type Props = {
   faqs: Faq[];
   sponsors: SponsorGroup[];
   judges: CarouselCard[];
+  mentors: CarouselCard[];
   pageData: PageData;
 };
 
-const Home = ({ tracks, prizes, faqs, sponsors, judges, pageData }: Props) => {
+const Home = ({ tracks, prizes, faqs, sponsors, mentors, pageData }: Props) => {
   return (
     <Layout pageData={pageData}>
       <>
@@ -30,6 +31,7 @@ const Home = ({ tracks, prizes, faqs, sponsors, judges, pageData }: Props) => {
         <Tracks tracks={tracks} />
         <Prizes prizeCategories={prizes} />
         {/* <Judges carouselCard={judges} /> */}
+        <ListCarousel carouselCard={mentors} title="Mentors" bg="light" />
         <Faq faqs={faqs} />
         <Sponsors sponsorGroups={sponsors} />
       </>
@@ -46,6 +48,7 @@ export async function getStaticProps() {
   const pageData = await readDataFile("pagedata.json");
   const sponsorData = await readDataFile("sponsors.json");
   const judgesData = await readDataFile("judges.json");
+  const mentorsData = await readDataFile("mentors.json");
 
   return {
     props: {
@@ -54,6 +57,7 @@ export async function getStaticProps() {
       faqs: faqData["faqs"],
       sponsors: sponsorData["sponsorGroups"],
       judges: judgesData["judges"],
+      mentors: mentorsData["mentors"],
       pageData: pageData,
     },
   };
