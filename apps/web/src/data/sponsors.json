@@ -97,6 +97,11 @@
           "name": "eSatya",
           "link": "https://esatya.io/",
           "logo": "/images/sponsors/esatya.png"
+        },
+        {
+          "name": "Balsamiq",
+          "link": "https://balsamiq.com/",
+          "logo": "/images/sponsors/balsamiq-logo.png"
         }
       ]
     },
@@ -132,16 +137,6 @@
           "name": "The Everest List",
           "link": "https://theeverestlist.org/",
           "logo": "/images/sponsors/everestlist.png"
-        }
-      ]
-    },
-    {
-      "title": "Swags Partner",
-      "sponsors": [
-        {
-          "name": "Balsamiq",
-          "link": "https://balsamiq.com/",
-          "logo": "/images/sponsors/balsamiq-logo.png"
         }
       ]
     },
