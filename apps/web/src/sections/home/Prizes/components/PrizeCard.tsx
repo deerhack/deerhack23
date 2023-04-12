@@ -8,10 +8,10 @@ type Props = {
 const PrizeCard = ({ prize }: Props) => {
   return (
     <div>
-      <div className="relative max-w-2xl">
+      <div className="relative max-w-2xl mx-auto">
         <div className="h-40 bg-secondary w-full rounded-t-xl"></div>
         <div className="left-0 right-0 absolute flex justify-center">
-          <div className="top-32 p-8 rounded-full bg-white mx-auto inline-block translate-y-[-50%]">
+          <div className="top-32 p-8 drop-shadow-md rounded-full bg-white mx-auto inline-block translate-y-[-50%]">
             <Image src={prize.icon} alt={prize.title} width={100} height={100} className="object-contain w-20 h-20" />
           </div>
         </div>

@@ -9,13 +9,44 @@
           "description": "Overall Winner of the event",
           "prize": "NPR 50,000"
         }
+      }
+    ],
+    [
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/datascience.svg",
+          "title": "Track Winner",
+          "description": "For Data Science and AI",
+          "prize": "NPR 15,000"
+        }
       },
       {
         "category": "",
         "prize": {
-          "icon": "/images/prizes/winner.svg",
+          "icon": "/images/prizes/blockchain.svg",
           "title": "Track Winner",
-          "description": "Track Winner of the event",
+          "description": "For Blockchain",
+          "prize": "NPR 15,000"
+        }
+      }
+    ],
+    [
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/interactive_technology.svg",
+          "title": "Track Winner",
+          "description": "For Interactive Technologies",
+          "prize": "NPR 15,000"
+        }
+      },
+      {
+        "category": "",
+        "prize": {
+          "icon": "/images/prizes/open_innovation.svg",
+          "title": "Track Winner",
+          "description": "For Open Innovation",
           "prize": "NPR 15,000"
         }
       }
