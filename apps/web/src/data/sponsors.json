@@ -141,6 +141,16 @@
       ]
     },
     {
+      "title": "Coffee Partner",
+      "sponsors": [
+        {
+          "name": "Mount Strada Coffee",
+          "link": "https://mountstradacoffee.com/",
+          "logo": "/images/sponsors/mount_strada_coffee.jpg"
+        }
+      ]
+    },
+    {
       "title": "Beverage Partner",
       "sponsors": [
         {
