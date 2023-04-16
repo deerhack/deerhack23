@@ -4,28 +4,28 @@
       "id": 1,
       "link": "https://www.linkedin.com/in/roshan-bhatta-092bb672/",
       "img": "/images/mentors/roshan_bhatta.png",
-      "role": "",
+      "role": "Engineering Manager",
       "name": "Roshan Bhatta"
     },
     {
       "id": 2,
       "link": "https://www.linkedin.com/in/rahulrajshah/",
       "img": "/images/mentors/rahul_raj_shah.jpg",
-      "role": "",
+      "role": "Senior Embedded Engineer",
       "name": "Rahul Raj Shah"
     },
     {
       "id": 3,
       "link": "https://www.linkedin.com/in/avinash-mishra-np/",
       "img": "/images/mentors/avinash_mishra.png",
-      "role": "",
+      "role": "Senior Software Developer",
       "name": "Avinash Mishra"
     },
     {
       "id": 4,
       "link": "https://www.linkedin.com/in/shubhtiwari5/",
       "img": "/images/mentors/shubham_tiwari.jpg",
-      "role": "",
+      "role": "Senior Blockchain Engineer",
       "name": "Er. Shubham Tiwari"
     },
     {
@@ -39,21 +39,21 @@
       "id": 6,
       "link": "https://www.linkedin.com/in/sarunluitel/",
       "img": "/images/mentors/sarun_luitel.jpg",
-      "role": "",
+      "role": "Senior Full Stack Developer",
       "name": "Sarun Luitel"
     },
     {
       "id": 7,
       "link": "https://www.linkedin.com/in/aashutosh-poudel-a43b80118/",
       "img": "/images/mentors/aashutosh_poudel.jpg",
-      "role": "",
+      "role": "Flutter Developer",
       "name": "Aashutosh Poudel"
     },
     {
       "id": 8,
       "link": "https://www.linkedin.com/in/nirishamanandhar/",
       "img": "/images/mentors/nirisha_manandhar.jpg",
-      "role": "",
+      "role": "Machine Learning Engineer",
       "name": "Nirisha Manandhar"
     }
 

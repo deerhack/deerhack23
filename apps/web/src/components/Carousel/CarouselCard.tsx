@@ -21,11 +21,11 @@ const CarouselCard = ({ link, img, name, role }: Props) => {
           src={img}
           alt="judges image"
           className="rounded-full border-yellow-400 border-4"
-          height={300}
+          height={200}
           width={200}
         />
-        <h3>{name}</h3>
-        <p>{role}</p>
+        <h3 className="font-mont font-bold mt-4">{name}</h3>
+        <p className="font-mont font-semibold">{role}</p>
       </a>
     </motion.div>
   );

@@ -27,7 +27,7 @@ const Carousel = ({ carouselCard }: Props) => {
       },
 
       {
-        breakpoint: 480,
+        breakpoint: 540,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -37,7 +37,7 @@ const Carousel = ({ carouselCard }: Props) => {
     ],
   };
   return (
-    <div className="mx-auto flex flex-col  text-center mt-8 lg:mt-12">
+    <div className="mx-auto flex flex-col text-center mt-8 lg:mt-12">
       <Slider {...settings}>
         {carouselCard.map((item) => {
           return (
