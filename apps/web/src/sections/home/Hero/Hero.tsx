@@ -56,13 +56,15 @@ const Hero = ({ discordUrl }: Props) => {
       className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.webp')] bg-cover bg-center bg-no-repeat"
       id="hero"
     >
-      <div className="w-32 h-32 lg:w-64 lg:h-64">
+      <div className="w-32 h-32 lg:w-56 lg:h-56">
         <Image src={Logo} alt="Deerhack logo" />
       </div>
       <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
       </h2>
-      <h4 className="font-poppins font-medium text-2xl lg:text-5xl mt-5 text-white">
+      <span className="font-mont font-medium text-xl text-primary text-center mt-5">Powered by</span>
+      <Image src="/images/sponsors/worldlink.svg" alt="" width={330} height={50} className="mt-5 w-48 lg:w-96"/>
+      <h4 className="font-poppins font-medium text-2xl lg:text-5xl mt-8 text-white">
         5th-7th May
       </h4>
       <div className="flex flex-row gap-2 justify-center font-mont text-4xl lg:text-7xl text-primary font-bold mt-10">
