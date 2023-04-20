@@ -19,14 +19,20 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
+        <Link href="/#mentors" scroll={false}>
+          Mentors
+        </Link>
+      </li>
+      <li>
         <Link href="/#faq" scroll={false}>
           FAQ
         </Link>
       </li>
       <li>
-        <Link href="/schedule">
-          Schedule
-        </Link>
+        <Link href="/schedule">Schedule</Link>
+      </li>
+      <li>
+        <Link href="/team">Teams</Link>
       </li>
       <li>
         <Link href={"/code-of-conduct"}>Code of Conduct</Link>

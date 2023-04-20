@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DeerHackLogo from "./deerhack_logo.png"
+import DeerHackLogo from "./deerhack_logo.png";
 
 type Props = {
   width: number;
