@@ -31,7 +31,12 @@ const Home = ({ tracks, prizes, faqs, sponsors, mentors, pageData }: Props) => {
         <Tracks tracks={tracks} />
         <Prizes prizeCategories={prizes} />
         {/* <Judges carouselCard={judges} /> */}
-        <ListCarousel carouselCard={mentors} title="Mentors" bg="light" />
+        <ListCarousel
+          carouselCard={mentors}
+          title="Mentors"
+          bg="light"
+          id="mentors"
+        />
         <Faq faqs={faqs} />
         <Sponsors sponsorGroups={sponsors} />
       </>

@@ -1,0 +1,29 @@
+{
+  "teams": [
+    {
+      "title": "Event Leads",
+      "members": [
+        {
+          "name": "Prayatna Mishra",
+          "image": "/images/teams/Prayatna Mishra.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Bipashree Aryal",
+          "image": "/images/teams/Bipashree Aryal.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Operations and Logistics",
+      "members": [
+        {
+          "name": "Tej Agrawal",
+          "image": "/images/teams/Tej Agrawal.jpeg",
+          "linkedin": ""
+        }
+      ]
+    }
+  ]
+}

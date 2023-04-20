@@ -59,3 +59,14 @@ type PageData = {
   registerForm: string;
   contactEmail: string;
 };
+
+type TeamMember = {
+  name: string;
+  linkedin: string;
+  image: string;
+};
+
+type Team = {
+  title: string;
+  members: TeamMember[];
+};

@@ -3,7 +3,6 @@ import Joi from "joi";
 const date = new Date();
 const dobLimit = date.setFullYear(date.getFullYear() - 18);
 
-
 const Register = Joi.object({
   name: Joi.string()
     .regex(/^[A-Za-z ]+$/)
