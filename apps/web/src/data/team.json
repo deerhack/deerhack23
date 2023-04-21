@@ -27,6 +27,196 @@
           "name": "Shreejal Mainali",
           "image": "/images/teams/Shreejal Mainali.jpeg",
           "linkedin": ""
+        },
+        {
+          "name": "Piyush Rimal",
+          "image": "/images/teams/Piyush Rimal.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+        {
+      "title": "Design Team",
+      "members": [
+        {
+          "name": "Shabda Shrestha",
+          "image": "/images/teams/Shabda Shrestha.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Kripa Acharya",
+          "image": "/images/teams/Kripa Acharya.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Aashish Kadel",
+          "image": "/images/teams/Aashish Kadel.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Bishesh Manandhar",
+          "image": "/images/teams/Bishesh Manandhar.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Technical Team",
+      "members": [
+        {
+          "name": "Rojen Maharjan",
+          "image": "/images/teams/Rojen Maharjan.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Kritartha Sapkota",
+          "image": "/images/teams/Kritartha Sapkota.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Asim Poudel",
+          "image": "/images/teams/Asim Poudel.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Outreach Team",
+      "members": [
+        {
+          "name": "Samriddhi Paudel",
+          "image": "/images/teams/Rojen Maharjan.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Kritartha Sapkota",
+          "image": "/images/teams/Kritartha Sapkota.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Asim Poudel",
+          "image": "/images/teams/Asim Poudel.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Outreach Team",
+      "members": [
+        {
+          "name": "Samriddhi Paudel",
+          "image": "/images/teams/Rojen Maharjan.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Subhangi Lamichhane",
+          "image": "/images/teams/Subhangi Lamichhane.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Kinjle Nepal",
+          "image": "/images/teams/Kinjle Nepal.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Judges and Mentor Coordinators",
+      "members": [
+        {
+          "name": "Tushar Luitel",
+          "image": "/images/teams/Tushar Luitel.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Samrajya Basnyat",
+          "image": "/images/teams/Samrajya Basnyat.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "PR and Documentation",
+      "members": [
+        {
+          "name": "Saishma Ghimire",
+          "image": "/images/teams/Saishma Ghimire.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Aasara Bade Shrestha",
+          "image": "/images/teams/Aasara Bade Shrestha.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "IT Department",
+      "members": [
+        {
+          "name": "Nirnaya Dangol",
+          "image": "/images/teams/Nirnaya Dangol.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Sakar Shrestha",
+          "image": "/images/teams/Sakar Shrestha.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Chadani Thapa",
+          "image": "/images/teams/Chadani Thapa.jpeg",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "title": "Volunteers",
+      "members": [
+        {
+          "name": "Shrey Dip Bhandari",
+          "image": "/images/teams/Shrey Dip Bhandari.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Aryana Lamichhane",
+          "image": "/images/teams/Aryana Lamichhane.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Bishrut Uprety",
+          "image": "/images/teams/Bishrut Uprety.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Abhigya Karmacharya",
+          "image": "/images/teams/Abhigya Karmacharya.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Rahul Shah",
+          "image": "/images/teams/Rahul Shah.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Aayusha Karki",
+          "image": "/images/teams/Aayusha Karki.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Bijay Shrestha",
+          "image": "/images/teams/Bijay Shrestha.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Kriti Chimariya",
+          "image": "/images/teams/Kriti Chimariya.jpeg",
+          "linkedin": ""
+        },
+        {
+          "name": "Aashutosh Pudasaini",
+          "image": "/images/teams/Aashutosh Pudasaini.jpeg",
+          "linkedin": ""
         }
       ]
     }
