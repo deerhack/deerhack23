@@ -24,7 +24,7 @@ const TeamCard = ({ member }: Props) => {
         <Image
           src={member.image}
           alt="judges image"
-          className="rounded-full border-yellow-400 border-4 w-64 h-64 md:w-80 md:h-80 object-contain"
+          className="rounded-full border-yellow-400 border-4 w-64 h-64 md:w-80 md:h-80 object-cover"
           height={300}
           width={300}
         />
