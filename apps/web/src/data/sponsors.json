@@ -1,6 +1,16 @@
 {
   "sponsorGroups": [
     {
+      "title": "Title Sponsor",
+      "sponsors": [
+        {
+          "name": "Worldlink",
+          "link": "https://worldlink.com.np/",
+          "logo": "/images/sponsors/worldlink.svg"
+        }
+      ]
+    },
+    {
       "title": "Gold Sponsor",
       "sponsors": [
         {
@@ -122,7 +132,7 @@
         {
           "name": "Coco Affaire",
           "link": "https://cocoaffaire.com/",
-          "logo": ""
+          "logo": "/images/sponsors/coco_affaire.png"
         }
       ]
     },
