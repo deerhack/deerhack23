@@ -74,8 +74,8 @@ const CodeOfConduct = ({ pageData }: Props) => {
               Participants of all ages, genders, and geographies are welcome.
             </li>
             <li>
-              To attend DeerHack, the age is limited to students who are between 18
-              and 25 years old.
+              To attend DeerHack, the age is limited to students who are between
+              18 and 25 years old.
             </li>
             <li>
               Members of the organizing committee or Deerwalk Institute of
