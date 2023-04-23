@@ -5,7 +5,8 @@ type Props = {
 };
 const TeamRow = ({ team }: Props) => {
   const title = team.title.split(" ");
-  const firstPart = title.length > 1 ? title.slice(0, title.length - 1).join(" ") : team.title;
+  const firstPart =
+    title.length > 1 ? title.slice(0, title.length - 1).join(" ") : team.title;
   let secondPart = "";
   if (title.length > 1) {
     secondPart = title[title.length - 1];

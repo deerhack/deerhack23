@@ -7,7 +7,8 @@ type Props = {
 
 const TeamCard = ({ member }: Props) => {
   const name = member.name.split(" ");
-  let firstPart = name.length > 1 ? name.slice(0, name.length - 1).join(" ") : member.name,
+  let firstPart =
+      name.length > 1 ? name.slice(0, name.length - 1).join(" ") : member.name,
     secondPart = "";
   if (name.length > 1) {
     secondPart = name[name.length - 1];

@@ -17,7 +17,6 @@ const Carousel = ({ carouselCard }: Props) => {
     slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
-
       {
         breakpoint: 1200,
         settings: {
@@ -27,12 +26,11 @@ const Carousel = ({ carouselCard }: Props) => {
         },
       },
     ],
-    customPaging: (i:number) => (
-        <div
-          className={clsx("w-3 h-3 border-2 border-primary rounded-xl slick-dot")}
-        >
-        </div>
-      )
+    customPaging: (i: number) => (
+      <div
+        className={clsx("w-3 h-3 border-2 border-primary rounded-xl slick-dot")}
+      ></div>
+    ),
   };
   return (
     <div className="mx-auto flex flex-col text-center mt-8 lg:mt-12">
