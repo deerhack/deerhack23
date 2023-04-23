@@ -7,7 +7,7 @@
           "icon": "/images/prizes/winner.svg",
           "title": "Overall Winner",
           "description": "Overall Winner of the event",
-          "prize": "NPR 50,000"
+          "prize": "Rs. 50,000"
         }
       }
     ],
@@ -18,7 +18,7 @@
           "icon": "/images/prizes/datascience.svg",
           "title": "Track Winner",
           "description": "For Data Science and AI",
-          "prize": "NPR 15,000"
+          "prize": "Rs. 15,000"
         }
       },
       {
@@ -27,7 +27,7 @@
           "icon": "/images/prizes/blockchain.svg",
           "title": "Track Winner",
           "description": "For Blockchain",
-          "prize": "NPR 15,000"
+          "prize": "Rs. 15,000"
         }
       }
     ],
@@ -38,7 +38,7 @@
           "icon": "/images/prizes/interactive_technology.svg",
           "title": "Track Winner",
           "description": "For Interactive Technologies",
-          "prize": "NPR 15,000"
+          "prize": "Rs. 15,000"
         }
       },
       {
@@ -47,7 +47,7 @@
           "icon": "/images/prizes/open_innovation.svg",
           "title": "Track Winner",
           "description": "For Open Innovation",
-          "prize": "NPR 15,000"
+          "prize": "Rs. 15,000"
         }
       }
     ],
@@ -58,7 +58,8 @@
           "icon": "/images/prizes/polygon.svg",
           "title": "Ethereum + Polygon Track",
           "description": "Best hack built on Ethereum + Polygon",
-          "prize": "USD 200"
+          "prize_text": "Worth",
+          "prize": "$200"
         }
       },
       {
@@ -67,7 +68,8 @@
           "icon": "/images/prizes/polygon.svg",
           "title": "Ethereum Track",
           "description": "Best hack built on Ethereum",
-          "prize": "USD 150"
+          "prize_text": "Worth",
+          "prize": "$150"
         }
       }
     ],
@@ -78,7 +80,8 @@
           "icon": "/images/prizes/filecoin.svg",
           "title": "Filecoin Track",
           "description": "Best use of Filecoin and/or IPFS",
-          "prize": "USD 200"
+          "prize_text": "Worth",
+          "prize": "$200"
         }
       },
       {
@@ -87,7 +90,8 @@
           "icon": "/images/prizes/replit.svg",
           "title": "Replit Track",
           "description": "Winning Project deployed on Replit",
-          "prize": "USD 150"
+          "prize_text": "Worth",
+          "prize": "$150"
         }
       }
     ],
@@ -98,7 +102,8 @@
           "icon": "/images/prizes/solana.svg",
           "title": "young gun",
           "description": "for the best project beginners just starting out on Solana",
-          "prize": "USD 100"
+          "prize_text": "Worth",
+          "prize": "$100"
         }
       },
       {
@@ -107,7 +112,8 @@
           "icon": "/images/prizes/solana.svg",
           "title": "master glasseater",
           "description": "for the best advanced project that is almost ready for full-time",
-          "prize": "USD 500"
+          "prize_text": "Worth",
+          "prize": "$500"
         }
       },
       {
@@ -116,7 +122,8 @@
           "icon": "/images/prizes/solana.svg",
           "title": "rising teknoking",
           "description": "for the best project that goes into depth, demonstrating higher-order code",
-          "prize": "USD 250"
+          "prize_text": "Worth",
+          "prize": "$250"
         }
       }
     ]

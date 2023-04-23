@@ -14,6 +14,7 @@ type Prize = {
   title: string;
   description: string;
   prize: string;
+  prize_text?: string;
 };
 
 type EventData = {
