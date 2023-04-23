@@ -1,6 +1,16 @@
 {
   "sponsorGroups": [
     {
+      "title": "Title Sponsor",
+      "sponsors": [
+        {
+          "name": "Worldlink",
+          "link": "https://worldlink.com.np/",
+          "logo": "/images/sponsors/worldlink.svg"
+        }
+      ]
+    },
+    {
       "title": "Gold Sponsor",
       "sponsors": [
         {
@@ -57,51 +67,16 @@
           "name": "NIBL Ace Capital",
           "link": "https://www.niblcapital.com/",
           "logo": "/images/sponsors/nibl_ace_capital.png"
-        }
-      ]
-    },
-    {
-      "title": "Supported By",
-      "sponsors": [
-        {
-          "name": "Github Education",
-          "link": "https://education.github.com/",
-          "logo": "/images/sponsors/github-logo.png"
         },
         {
-          "name": "Deerhold",
-          "link": "https://deerhold.com/",
-          "logo": "/images/sponsors/deerhold.png"
+          "name": "TreeLeaf",
+          "link": "http://treeleaf.ai/",
+          "logo": "/images/sponsors/treeleaf.svg"
         },
         {
-          "name": "Hamro Patro",
-          "link": "https://www.hamropatro.com/",
-          "logo": "/images/sponsors/hamro_patro.svg"
-        },
-        {
-          "name": "Programiz",
-          "link": "https://www.programiz.com/",
-          "logo": "/images/sponsors/pc_logo.svg"
-        },
-        {
-          "name": "Hawkai",
-          "link": "https://hawkai.online/",
-          "logo": "/images/sponsors/hawkai.png"
-        },
-        {
-          "name": "Makkusé",
-          "link": "https://makkuse.com/",
-          "logo": "/images/sponsors/makkuse-logo.png"
-        },
-        {
-          "name": "eSatya",
-          "link": "https://esatya.io/",
-          "logo": "/images/sponsors/esatya.png"
-        },
-        {
-          "name": "Balsamiq",
-          "link": "https://balsamiq.com/",
-          "logo": "/images/sponsors/balsamiq-logo.png"
+          "name": "Anydone",
+          "link": "https://www.anydone.com/",
+          "logo": "/images/sponsors/anydone.svg"
         }
       ]
     },
@@ -116,12 +91,58 @@
       ]
     },
     {
-      "title": "Ranking Partner",
+      "title": "Event Coverage Partner",
       "sponsors": [
         {
-          "name": "The Everest List",
-          "link": "https://theeverestlist.org/",
-          "logo": "/images/sponsors/everestlist.png"
+          "name": "TechPana",
+          "link": "https://www.techpana.com/",
+          "logo": "/images/sponsors/techpana.png"
+        }
+      ]
+
+    },
+    {
+      "title": "App Partner",
+      "sponsors": [
+        {
+          "name": "Hamro Patro",
+          "link": "https://www.hamropatro.com/",
+          "logo": "/images/sponsors/hamro_patro.svg"
+        }
+      ]
+    },
+    {
+      "title": "Education Partner for Abroad Studies and IELTS Certification",
+      "sponsors": [
+        {
+          "name": "IDP",
+          "link": "https://www.idp.com/",
+          "logo": "/images/sponsors/idp.svg"
+        }
+      ]
+    },
+    {
+      "title": "Gifting Partner",
+      "sponsors": [
+        {
+          "name": "Makkusé",
+          "link": "https://makkuse.com/",
+          "logo": "/images/sponsors/makkuse-logo.png"
+        },
+        {
+          "name": "Coco Affaire",
+          "link": "https://cocoaffaire.com/",
+          "logo": "/images/sponsors/coco_affaire.png"
+        }
+      ]
+    },
+    {
+      "title": "Entertainment Partner",
+      "sponsors": [
+        {
+          "name": "QFX Cinemas",
+          "link": "https://www.qfxcinemas.com/",
+          "logo": "/images/sponsors/qfx.svg"
         }
       ]
     },
@@ -132,6 +153,61 @@
           "name": "Mount Strada Coffee",
           "link": "https://mountstradacoffee.com/",
           "logo": "/images/sponsors/mount_strada_coffee.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Mobility Partner",
+      "sponsors": [
+        {
+          "name": "Segway",
+          "link": "https://www.segway.com/",
+          "logo": "/images/sponsors/segway.png"
+        }
+      ]
+    },
+    {
+      "title": "Supported By",
+      "sponsors": [
+        {
+          "name": "Github Education",
+          "link": "https://education.github.com/",
+          "logo": "/images/sponsors/github-logo.png"
+        },
+        {
+          "name": "Programiz",
+          "link": "https://www.programiz.com/",
+          "logo": "/images/sponsors/pc_logo.svg"
+        },
+        {
+          "name": "Hawkai",
+          "link": "https://hawkai.online/",
+          "logo": "/images/sponsors/hawkai.png"
+        },
+        {
+          "name": "eSatya",
+          "link": "https://esatya.io/",
+          "logo": "/images/sponsors/esatya.png"
+        },
+        {
+          "name": "Balsamiq",
+          "link": "https://balsamiq.com/",
+          "logo": "/images/sponsors/balsamiq-logo.png"
+        },
+        {
+          "name": "Dohoriko Chhal",
+          "link": "https://www.youtube.com/@dohorikochhal192",
+          "logo": "/images/sponsors/dohoriko_chhal.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Ranking Partner",
+      "sponsors": [
+        {
+          "name": "The Everest List",
+          "link": "https://theeverestlist.org/",
+          "logo": "/images/sponsors/everestlist.png"
         }
       ]
     },

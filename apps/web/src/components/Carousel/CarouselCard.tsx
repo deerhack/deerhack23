@@ -12,7 +12,7 @@ const CarouselCard = ({ link, img, name, role }: Props) => {
   return (
     <motion.div
       className="flex flex-col items-center my-6 "
-      whileHover={{ scale: 1.2 }}
+      whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
@@ -21,8 +21,8 @@ const CarouselCard = ({ link, img, name, role }: Props) => {
           src={img}
           alt="judges image"
           className="rounded-full border-yellow-400 border-4"
-          height={200}
-          width={200}
+          height={300}
+          width={300}
         />
         <h3 className="font-mont font-bold mt-4">{name}</h3>
         <p className="font-mont font-semibold">{role}</p>

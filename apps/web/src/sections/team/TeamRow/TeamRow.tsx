@@ -5,7 +5,8 @@ type Props = {
 };
 const TeamRow = ({ team }: Props) => {
   const title = team.title.split(" ");
-  const firstPart = title.slice(0, title.length - 1).join(" ");
+  const firstPart =
+    title.length > 1 ? title.slice(0, title.length - 1).join(" ") : team.title;
   let secondPart = "";
   if (title.length > 1) {
     secondPart = title[title.length - 1];
@@ -16,7 +17,7 @@ const TeamRow = ({ team }: Props) => {
         {firstPart}
         {secondPart && <span className="text-primary"> {secondPart}</span>}
       </h2>
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-20 flex-wrap py-14">
+      <div className="flex flex-col lg:flex-row items-center justify-center flex-wrap py-14">
         {team.members.map((member, i) => (
           <TeamCard member={member} key={i} />
         ))}

@@ -28,7 +28,8 @@ const PrizeCard = ({ prize }: Props) => {
           <div className="font-mont font-medium italic text-sm lg:text-base text-center h-16">
             {prize.description}
           </div>
-          <div className="font-mont font-bold text-3xl md:text-4xl lg:text-6xl mt-12 text-center text-secondary">
+          <span className="text-center mt-12 block font-mont font-semibold text-base h-4">{prize.prize_text && prize.prize_text}</span>
+          <div className="font-mont font-bold text-3xl md:text-4xl lg:text-6xl text-center text-secondary mt-2">
             {prize.prize}
           </div>
         </div>

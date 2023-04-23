@@ -25,3 +25,7 @@ body {
 .item:last-child:before {
   height: 0 !important;
 }
+
+.slick-active .slick-dot {
+  @apply bg-primary
+}
