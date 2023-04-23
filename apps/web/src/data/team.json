@@ -131,31 +131,11 @@
       ]
     },
     {
-      "title": "IT Department",
-      "members": [
-        {
-          "name": "Nirnaya Dangol",
-          "image": "/images/teams/Nirnaya Dangol.jpeg",
-          "linkedin": "https://www.linkedin.com/in/nirnaya-dangol-ba6647211/"
-        },
-        {
-          "name": "Sakar Shrestha",
-          "image": "/images/teams/Sakar Shrestha.jpeg",
-          "linkedin": "https://www.linkedin.com/in/sakar-shrestha/"
-        },
-        {
-          "name": "Chadani Thapa",
-          "image": "/images/teams/Chadani Thapa.jpeg",
-          "linkedin": "https://www.linkedin.com/in/chadani-thapa-85084a211/"
-        }
-      ]
-    },
-    {
       "title": "Volunteers",
       "members": [
         {
           "name": "Shrey Dip Bhandari",
-          "image": "/images/teams/Shrey Dip Bhandari.jpeg",
+          "image": "/images/teams/Shrey Dip Bhandari.jpg",
           "linkedin": "https://www.linkedin.com/in/shrey-dip-bhandari-b22527239"
         },
         {
@@ -200,37 +180,37 @@
         },
         {
           "name": "Aashutosh Bikram Karki",
-          "image": "/images/teams/Aashutosh Bikram Karki",
+          "image": "/images/teams/Aashutosh Bikram Karki.jpeg",
           "linkedin": "https://www.linkedin.com/in/aashutosh-bikram-karki-843004264/"
         },
         {
           "name": "Bipin Bartaula",
-          "image": "/images/teams/Bipin Bartaula",
+          "image": "/images/teams/Bipin Bartaula.jpeg",
           "linkedin": "https://www.linkedin.com/in/bipin-bartaula-45a7a0265"
         },
         {
           "name": "Samrat Nakarmi",
-          "image": "/images/teams/Samrat Nakarmi",
+          "image": "/images/teams/Samrat Nakarmi.jpeg",
           "linkedin": "https://www.linkedin.com/mwlite/in/samrat-nakarmi-90968321a"
         },
         {
           "name": "Sheetashma Karki",
-          "image": "/images/teams/Sheetashma Karki",
+          "image": "/images/teams/Sheetashma Karki.jpeg",
           "linkedin": "https://www.linkedin.com/in/sheetashma-karki-82086a224"
         },
         {
           "name": "Mandika Thapa Magar",
-          "image": "/images/teams/Mandika Thapa Magar",
+          "image": "/images/teams/Mandika Magar.jpeg",
           "linkedin": "http://linkedin.com/in/mandika-magar-b53559244"
         },
         {
           "name": "Prakriti Baral",
-          "image": "/images/teams/Prakriti Baral",
+          "image": "/images/teams/Prakriti Baral.jpeg",
           "linkedin": "https://www.linkedin.com/in/prakriti-baral-442aa9263"
         },
         {
           "name": "Pranjal Raut",
-          "image": "/images/teams/Pranjal Raut",
+          "image": "/images/teams/Pranjal Raut/jpeg",
           "linkedin": "https://www.linkedin.com/in/pranjal-raut-39a025264/"
         }
       ]

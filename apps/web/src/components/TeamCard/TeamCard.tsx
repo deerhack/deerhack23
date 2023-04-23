@@ -7,7 +7,7 @@ type Props = {
 
 const TeamCard = ({ member }: Props) => {
   const name = member.name.split(" ");
-  let firstPart = name.slice(0, name.length - 1),
+  let firstPart = name.length > 1 ? name.slice(0, name.length - 1).join(" ") : member.name,
     secondPart = "";
   if (name.length > 1) {
     secondPart = name[name.length - 1];
@@ -15,7 +15,7 @@ const TeamCard = ({ member }: Props) => {
 
   return (
     <motion.div
-      className="flex flex-col items-center my-6 "
+      className="flex flex-col items-center my-6 basis-1/3 p-5"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
