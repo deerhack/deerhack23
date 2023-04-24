@@ -100,7 +100,7 @@
         "category": "Solana",
         "prize": {
           "icon": "/images/prizes/solana.svg",
-          "title": "young gun",
+          "title": "Young Gun",
           "description": "for the best project beginners just starting out on Solana",
           "prize_text": "Worth",
           "prize": "$100"
@@ -110,7 +110,7 @@
         "category": "",
         "prize": {
           "icon": "/images/prizes/solana.svg",
-          "title": "master glasseater",
+          "title": "Master Glasseater",
           "description": "for the best advanced project that is almost ready for full-time",
           "prize_text": "Worth",
           "prize": "$500"
@@ -120,7 +120,7 @@
         "category": "",
         "prize": {
           "icon": "/images/prizes/solana.svg",
-          "title": "rising teknoking",
+          "title": "Rising Teknoking",
           "description": "for the best project that goes into depth, demonstrating higher-order code",
           "prize_text": "Worth",
           "prize": "$250"
