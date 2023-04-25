@@ -65,6 +65,7 @@ type TeamMember = {
   name: string;
   linkedin: string;
   image: string;
+  rowspan: boolean;
 };
 
 type Team = {
