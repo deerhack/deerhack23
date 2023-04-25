@@ -32,10 +32,13 @@ const NavLinks = () => {
         <Link href="/schedule">Schedule</Link>
       </li>
       <li>
-        <Link href="/team">Teams</Link>
+        <Link href="/organizer">Organizers</Link>
       </li>
       <li>
         <Link href={"/code-of-conduct"}>Code of Conduct</Link>
+      </li>
+      <li>
+        <Link href="/resources/participants.pdf">Participants</Link>
       </li>
     </>
   );

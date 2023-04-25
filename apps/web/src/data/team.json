@@ -35,13 +35,14 @@
         }
       ]
     },
-        {
+    {
       "title": "Design Team",
       "members": [
         {
           "name": "Shabda Shrestha",
           "image": "/images/teams/Shabda Shrestha.jpeg",
-          "linkedin": "https://www.linkedin.com/in/shabda-shrestha-734262245/"
+          "linkedin": "https://www.linkedin.com/in/shabda-shrestha-734262245/",
+          "rowspan": true
         },
         {
           "name": "Kripa Acharya",
