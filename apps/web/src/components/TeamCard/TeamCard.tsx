@@ -1,3 +1,5 @@
+import { LinkedinIcon } from "@/assets/icons";
+import clsx from "clsx";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -16,12 +18,13 @@ const TeamCard = ({ member }: Props) => {
 
   return (
     <motion.div
-      className="flex flex-col items-center my-6 basis-1/3 p-5"
+      className={clsx("flex flex-col items-center my-6 p-5", member.rowspan ? "basis-full" : "basis-1/3")}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+      // transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
       <a href={member.linkedin} target="_blank" rel="noreferrer">
+        <div className="relative">
         <Image
           src={member.image}
           alt="judges image"
@@ -29,6 +32,11 @@ const TeamCard = ({ member }: Props) => {
           height={300}
           width={300}
         />
+        <span className="bg-[#4B64A3] p-2 absolute rounded-full bottom-2 right-2 md:bottom-5 md:right-5">
+          <LinkedinIcon />
+        </span>
+
+        </div>
         <h3 className="font-mont font-bold text-xl lg:text-3xl mt-4 text-center text-white">
           {firstPart}
         </h3>

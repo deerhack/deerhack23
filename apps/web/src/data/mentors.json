@@ -24,16 +24,16 @@
     {
       "id": 4,
       "link": "https://www.linkedin.com/in/shubhtiwari5/",
-      "img": "/images/mentors/shubham_tiwari.jpg",
+      "img": "/images/mentors/shubham_tiwari.jpeg",
       "role": "Senior Blockchain Engineer",
       "name": "Er. Shubham Tiwari"
     },
     {
       "id": 5,
-      "link": "https://www.linkedin.com/in/amit-k-6861261b1/",
-      "img": "/images/mentors/amit_khatri.jpg",
-      "role": "",
-      "name": "Amit Khatri"
+      "link": "https://www.linkedin.com/in/prajwolrg/",
+      "img": "/images/mentors/prajwol_gyawali.png",
+      "role": "Blockchain Developer",
+      "name": "Prajwol Gyawali"
     },
     {
       "id": 6,
@@ -55,6 +55,34 @@
       "img": "/images/mentors/nirisha_manandhar.jpg",
       "role": "Machine Learning Engineer",
       "name": "Nirisha Manandhar"
+    },
+    {
+      "id": 9,
+      "link": "https://www.linkedin.com/in/sumanthastha/",
+      "img": "/images/mentors/suman_tha_shrestha.jpg",
+      "role": "Software Engineer",
+      "name": "Suman Shrestha"
+    },
+    {
+      "id": 10,
+      "link": "",
+      "img": "/images/mentors/aabiskar_pandey.png",
+      "role": "Full Stack Engineer",
+      "name": "Aabiskar Pandey"
+    },
+    {
+      "id": 11,
+      "link": "https://www.linkedin.com/in/tarachand-yadav-2543a539/",
+      "img": "/images/mentors/tarachand_yadav.jpg",
+      "role": "Manager-Data Scientist",
+      "name": "Tarachand Yadav"
+    },
+    {
+      "id": 12,
+      "link": "https://www.linkedin.com/in/aakashbhandari/",
+      "img": "/images/mentors/aakash_bhandari.png",
+      "role": "Machine Learning Engineer",
+      "name": "Aakash Bhandari"
     }
   ]
 }
