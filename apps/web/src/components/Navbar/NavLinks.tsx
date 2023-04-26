@@ -19,6 +19,11 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
+        <Link href="/#judges" scroll={false}>
+          Judges
+        </Link>
+      </li>
+      <li>
         <Link href="/#mentors" scroll={false}>
           Mentors
         </Link>
