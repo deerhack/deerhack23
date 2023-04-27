@@ -19,7 +19,7 @@ type Props = {
   pageData: PageData;
 };
 
-const Home = ({ tracks, prizes, faqs, sponsors, mentors, pageData }: Props) => {
+const Home = ({ tracks, prizes, faqs, sponsors, mentors, judges, pageData }: Props) => {
   return (
     <Layout pageData={pageData}>
       <>
@@ -30,7 +30,12 @@ const Home = ({ tracks, prizes, faqs, sponsors, mentors, pageData }: Props) => {
         <Info />
         <Tracks tracks={tracks} />
         <Prizes prizeCategories={prizes} />
-        {/* <Judges carouselCard={judges} /> */}
+        <ListCarousel
+          carouselCard={judges}
+          title="Judges"
+          bg="dark"
+          id="judges"
+        />
         <ListCarousel
           carouselCard={mentors}
           title="Mentors"

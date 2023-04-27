@@ -104,14 +104,14 @@
       "title": "Media Partners",
       "sponsors": [
         {
-          "name": "DWIT News",
-          "link": "https://dwitnews.com/",
-          "logo": "/images/sponsors/dwitnews.png"
-        },
-        {
           "name": "TechLekh",
           "link": "https://techlekh.com/",
           "logo": "/images/sponsors/techlekh.png"
+        },
+        {
+          "name": "DWIT News",
+          "link": "https://dwitnews.com/",
+          "logo": "/images/sponsors/dwitnews.png"
         }
       ]
     },
@@ -131,7 +131,7 @@
         {
           "name": "IDP",
           "link": "https://www.idp.com/",
-          "logo": "/images/sponsors/idp.svg"
+          "logo": "/images/sponsors/idp.png"
         }
       ]
     },
@@ -166,7 +166,7 @@
         {
           "name": "Mount Strada Coffee",
           "link": "https://mountstradacoffee.com/",
-          "logo": "/images/sponsors/mount_strada_coffee.jpg"
+          "logo": "/images/sponsors/mount_strada.png"
         }
       ]
     },
@@ -211,7 +211,7 @@
         {
           "name": "Dohoriko Chhal",
           "link": "https://www.youtube.com/@dohorikochhal192",
-          "logo": "/images/sponsors/dohoriko_chhal.jpg"
+          "logo": "/images/sponsors/dohoriko_chal.png"
         }
       ]
     },

@@ -2,45 +2,31 @@
   "judges": [
     {
       "id": 1,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Github Campus Expert",
-      "name": "David Beckham"
+      "link": "https://www.linkedin.com/in/agma-malakar-8291474b",
+      "img": "/images/judges/agma_malakar.jpg",
+      "role": "Chief Executive Officer at Ratna InTech",
+      "name": "Agma Malakar"
     },
     {
       "id": 2,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Sr. Data Analyst",
-      "name": "David Beckham"
+      "link": "https://www.linkedin.com/in/akash-deo-85743850/",
+      "img": "/images/judges/akash_deo.jpg",
+      "role": "Executive Chairman at Brainycube Research Organization",
+      "name": "Akash Deo"
     },
     {
       "id": 3,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Design Lead at Google",
-      "name": "David Beckham"
+      "link": "https://www.linkedin.com/in/sarojdhakal/",
+      "img": "/images/judges/saroj_kumar_dhakal.png",
+      "role": "Co-Founder at Abhiyantrik Technology",
+      "name": "Saroj Kumar Dhakal"
     },
     {
       "id": 4,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Github Campus Expert 2",
-      "name": "David Beckham"
-    },
-    {
-      "id": 5,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Github Campus Expert 2",
-      "name": "David Beckham"
-    },
-    {
-      "id": 6,
-      "link": "linkhere",
-      "img": "/images/Ellipse2.png",
-      "role": "Github Campus Expert 3",
-      "name": "David Beckham"
+      "link": "https://www.linkedin.com/in/er-nibesh-kiran-adhikari-2a493610a/",
+      "img": "/images/judges/nibesh_kiran_adhikari.jpg",
+      "role": "Co-Founder, CEO at Idea Breed",
+      "name": "Nibesh Kiran Adhikari"
     }
   ]
 }
