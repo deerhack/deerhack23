@@ -9,9 +9,9 @@ const Sponsers = ({ sponsorGroups }: Props) => {
   return (
     <section className="bg-gradient-to-r from-[#4B64A3] to-[#182E66] py-10 px-10 md:py-24">
       <div className="container mx-auto">
-        <h2 className="font-mont font-bold text-3xl lg:text-5xl text-white text-center">
+        {/* <h2 className="font-mont font-bold text-3xl lg:text-5xl text-white text-center">
           Sponsors
-        </h2>
+        </h2> */}
 
         {sponsorGroups.map((sponsorGroup) => (
           <div className="mt-8 lg:mt-12" key={sponsorGroup.title}>

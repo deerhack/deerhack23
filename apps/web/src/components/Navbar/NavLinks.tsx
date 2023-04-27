@@ -3,46 +3,46 @@ import Link from "next/link";
 const NavLinks = () => {
   return (
     <>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#about" scroll={false}>
           About
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#tracks" scroll={false}>
           Tracks
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#prizes" scroll={false}>
           Prizes
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#judges" scroll={false}>
           Judges
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#mentors" scroll={false}>
           Mentors
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/#faq" scroll={false}>
           FAQ
         </Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/schedule">Schedule</Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/organizer">Organizers</Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href={"/code-of-conduct"}>Code of Conduct</Link>
       </li>
-      <li>
+      <li className="hover:text-primary">
         <Link href="/resources/participants.pdf">Participants</Link>
       </li>
     </>
