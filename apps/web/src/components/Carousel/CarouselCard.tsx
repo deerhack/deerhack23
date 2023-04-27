@@ -20,7 +20,7 @@ const CarouselCard = ({ link, img, name, role }: Props) => {
         <Image
           src={img}
           alt="judges image"
-          className="rounded-full border-yellow-400 border-4"
+          className="rounded-full border-yellow-400 border-4 mx-auto"
           height={300}
           width={300}
         />
