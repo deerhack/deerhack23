@@ -3,19 +3,24 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import CarouselCard from "./CarouselCard";
 import clsx from "clsx";
+import Arrow from "./Arrow";
 
 type Props = {
   carouselCard: CarouselCard[];
 };
 
+
+
 const Carousel = ({ carouselCard }: Props) => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
+    nextArrow: <Arrow type="next" />,
+    prevArrow: <Arrow  type="prev" />,
     responsive: [
       {
         breakpoint: 1200,
