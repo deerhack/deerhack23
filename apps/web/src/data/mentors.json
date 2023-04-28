@@ -83,6 +83,13 @@
       "img": "/images/mentors/aakash_bhandari.png",
       "role": "Machine Learning Engineer",
       "name": "Aakash Bhandari"
+    },
+    {
+      "id": 13,
+      "link": "https://www.linkedin.com/in/regmiumesh",
+      "img": "/images/mentors/umesh_regmi.jpg",
+      "role": "Full Stack Engineer",
+      "name": "Umesh Regmi"
     }
   ]
 }
