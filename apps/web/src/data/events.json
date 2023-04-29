@@ -65,18 +65,24 @@
         },
         {
           "id": 4,
+          "start_time": "5:00 PM",
+          "end_time": "6:00 PM",
+          "description": "Coding Start"
+        },
+        {
+          "id": 5,
           "start_time": "6:00 PM",
           "end_time": "8:00 PM",
           "description": "Talk Session 01"
         },
         {
-          "id": 5,
+          "id": 6,
           "start_time": "8:00 PM",
           "end_time": "10:00 PM",
           "description": "Dinner"
         },
         {
-          "id": 6,
+          "id": 7,
           "start_time": "10:00 PM",
           "description": "Fun Game 01"
         }
