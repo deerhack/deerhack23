@@ -27,6 +27,13 @@
       "img": "/images/judges/nibesh_kiran_adhikari.jpg",
       "role": "Co-Founder, CEO at Idea Breed",
       "name": "Nibesh Kiran Adhikari"
+    },
+    {
+      "id": 5,
+      "link": "https://www.linkedin.com/in/mmallad/",
+      "img": "/images/judges/dipak_malla.jpg",
+      "role": "CEO & Co-Founder at Treeleaf Technologies",
+      "name": "Dipak Malla"
     }
   ]
 }

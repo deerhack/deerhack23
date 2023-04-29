@@ -56,22 +56,54 @@ const Hero = ({ discordUrl }: Props) => {
       className="flex flex-col text-center items-center justify-center pt-32 bg-[#302949] min-h-screen bg-[url('/images/hero_bg_2.webp')] bg-cover bg-center bg-no-repeat"
       id="hero"
     >
-      <div className="w-32 h-32 lg:w-56 lg:h-56">
-        <Image src={Logo} alt="Deerhack logo" />
+      <div className="flex flex-col lg:flex-row gap-y-10">
+        <div className="w-32 h-32 lg:w-56 lg:h-56 mx-auto lg:mr-20">
+          <Image src={Logo} alt="Deerhack logo" />
+        </div>
+        {/* vertical bar */}
+        <div className="hidden lg:block">
+          <svg
+            width="4"
+            height="232"
+            viewBox="0 0 4 232"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.71386 0.342224C-0.334034 77.1354 -0.350687 154.963 1.71385 231.76C3.77839 154.965 3.76507 77.1372 1.71386 0.342224Z"
+              fill="#FFD152"
+            />
+          </svg>
+        </div>
+
+        <div className="lg:ml-20">
+          <span className="font-poppins font-semibold text-xl lg:text-3xl text-primary">
+            Powered by
+          </span>
+          <Image
+            src="/images/sponsors/worldlink.svg"
+            alt=""
+            width={330}
+            height={50}
+            className="mt-2 lg:mt-5 w-48 lg:w-80"
+          />
+
+          <span className="font-poppins font-medium text-sm text-primary mt-6 block">
+            In Association with
+          </span>
+
+          <Image
+            src="/images/sponsors/nimb.png"
+            alt=""
+            width={330}
+            height={50}
+            className="mt-2 lg:mt-5 w-36 lg:w-40 mx-auto"
+          />
+        </div>
       </div>
-      <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
+      {/* <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
-      </h2>
-      <span className="font-mont font-medium text-xl text-primary text-center mt-5">
-        Powered by
-      </span>
-      <Image
-        src="/images/sponsors/worldlink.svg"
-        alt=""
-        width={330}
-        height={50}
-        className="mt-5 w-48 lg:w-96"
-      />
+      </h2> */}
       <h4 className="font-poppins font-medium text-2xl lg:text-5xl mt-8 text-white">
         5th-7th May
       </h4>
