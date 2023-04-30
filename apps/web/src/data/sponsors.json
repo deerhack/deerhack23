@@ -32,6 +32,11 @@
           "name": "Polygon",
           "link": "https://polygon.technology/",
           "logo": "/images/sponsors/polygon.svg"
+        },
+        {
+          "name": "Amrapali",
+          "link": "https://amrapalibeverage.com/",
+          "logo": "/images/sponsors/amrapali-logo.png"
         }
       ]
     },
@@ -54,9 +59,9 @@
           "logo": "/images/sponsors/replit.png"
         },
         {
-          "name": "Amrapali",
-          "link": "https://amrapalibeverage.com/",
-          "logo": "/images/sponsors/amrapali-logo.png"
+          "name": "Makkusé",
+          "link": "https://makkuse.com/",
+          "logo": "/images/sponsors/makkuse-logo.png"
         }
       ]
     },
@@ -149,11 +154,6 @@
       "title": "Gifting Partner",
       "sponsors": [
         {
-          "name": "Makkusé",
-          "link": "https://makkuse.com/",
-          "logo": "/images/sponsors/makkuse-logo.png"
-        },
-        {
           "name": "Coco Affaire",
           "link": "https://cocoaffaire.com/",
           "logo": "/images/sponsors/coco_affaire.png"
@@ -222,7 +222,38 @@
           "name": "Dohoriko Chhal",
           "link": "https://www.youtube.com/@dohorikochhal192",
           "logo": "/images/sponsors/dohoriko_chal.png"
+        },
+        {
+          "name": "Nextgen",
+          "link": "https://gnextcom.com/",
+          "logo": "/images/sponsors/nextgen.png"
+        },
+        {
+          "name": "Mirror Maze",
+          "link": "https://www.instagram.com/mirrormaze.nepal/?hl=en",
+          "logo": "/images/sponsors/mirrormaze.png"
+        },
+        {
+          "name": "Astrek Wall Climbing",
+          "link": "https://astrekclimbing.com/",
+          "logo": "/images/sponsors/astrek.png"
+        },
+        {
+          "name": "Nailed it",
+          "link": "https://www.instagram.com/nailed0_0it/",
+          "logo": "/images/sponsors/nailedit.png"
         }
+      ]
+    },
+    {
+      "title": "Training Partner",
+      "sponsors": [
+        {
+          "name": "Deerwalk Compware",
+          "link": "https://deerwalkcompware.com/",
+          "logo": "/images/sponsors/deerwalk_compware.png"
+        }
+
       ]
     },
     {

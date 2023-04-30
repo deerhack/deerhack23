@@ -20,7 +20,11 @@ const Sponsers = ({ sponsorGroups }: Props) => {
             </h3>
             <div className="flex flex-col flex-wrap md:flex-row justify-center items-center py-10 mx-auto">
               {sponsorGroup.sponsors.map((sponsor) => (
-                <a key={sponsor.name} href={sponsor.link} className="basis-1/4 p-3">
+                <a
+                  key={sponsor.name}
+                  href={sponsor.link}
+                  className="basis-1/4 p-3"
+                >
                   <Image
                     src={sponsor.logo}
                     alt={sponsor.name}
