@@ -227,7 +227,33 @@
           "name": "Nextgen",
           "link": "https://gnextcom.com/",
           "logo": "/images/sponsors/nextgen.png"
+        },
+        {
+          "name": "Mirror Maze",
+          "link": "https://www.instagram.com/mirrormaze.nepal/?hl=en",
+          "logo": "/images/sponsors/mirrormaze.png"
+        },
+        {
+          "name": "Astrek Wall Climbing",
+          "link": "https://astrekclimbing.com/",
+          "logo": "/images/sponsors/astrek.png"
+        },
+        {
+          "name": "Nailed it",
+          "link": "https://www.instagram.com/nailed0_0it/",
+          "logo": "/images/sponsors/nailedit.png"
         }
+      ]
+    },
+    {
+      "title": "Training Partner",
+      "sponsors": [
+        {
+          "name": "Deerwalk Compware",
+          "link": "https://deerwalkcompware.com/",
+          "logo": "/images/sponsors/deerwalk_compware.png"
+        }
+
       ]
     },
     {

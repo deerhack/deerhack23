@@ -10,3 +10,4 @@ export { default as InteractiveTechnologyIcon } from "./InteractiveTechnologyIco
 export { default as OpenInnovationIcon } from "./OpenInnovationIcon";
 export { default as LinkedinIcon } from "./LinkedinIcon";
 export { default as ArrowIcon } from "./ArrowIcon";
+export {default as DeerhackLogo} from "./DeerhackLogo";

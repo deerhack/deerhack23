@@ -1,4 +1,4 @@
-import { DiscordLogo } from "@/assets/icons";
+import { DeerhackLogo, DiscordLogo } from "@/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -57,9 +57,12 @@ const Hero = ({ discordUrl }: Props) => {
       id="hero"
     >
       <div className="flex flex-col lg:flex-row gap-y-10">
-        <div className="w-32 h-32 lg:w-56 lg:h-56 mx-auto lg:mr-20">
+        <div className="w-32 h-32 lg:w-56 lg:h-56 mx-auto lg:mr-32">
           <Image src={Logo} alt="Deerhack logo" />
         </div>
+      <span className="mt-2 lg:hidden" key={"lg"}>
+        <DeerhackLogo />
+      </span>
         {/* vertical bar */}
         <div className="hidden lg:block">
           <svg
@@ -85,7 +88,7 @@ const Hero = ({ discordUrl }: Props) => {
             alt=""
             width={330}
             height={50}
-            className="mt-2 lg:mt-5 w-48 lg:w-80"
+            className="mt-2 lg:mt-5 w-48 lg:w-80 mx-auto"
           />
 
           <span className="font-poppins font-medium text-sm text-primary mt-6 block">
@@ -101,6 +104,11 @@ const Hero = ({ discordUrl }: Props) => {
           />
         </div>
       </div>
+
+      <span className="mt-8 hidden lg:block" key={"sm"}>
+        <DeerhackLogo />
+      </span>
+
       {/* <h2 className="font-mont font-bold text-primary text-4xl lg:text-7xl">
         DeerHack 2023
       </h2> */}
