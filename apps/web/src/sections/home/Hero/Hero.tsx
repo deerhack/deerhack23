@@ -60,9 +60,9 @@ const Hero = ({ discordUrl }: Props) => {
         <div className="w-32 h-32 lg:w-56 lg:h-56 mx-auto lg:mr-32">
           <Image src={Logo} alt="Deerhack logo" />
         </div>
-      <span className="mt-2 lg:hidden" key={"lg"}>
-        <DeerhackLogo />
-      </span>
+        <span className="mt-2 lg:hidden" key={"lg"}>
+          <DeerhackLogo />
+        </span>
         {/* vertical bar */}
         <div className="hidden lg:block">
           <svg

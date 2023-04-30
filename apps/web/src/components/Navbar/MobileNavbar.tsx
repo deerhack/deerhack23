@@ -13,13 +13,12 @@ const MobileNavbar = ({ setOpen }: Props) => {
       </span>
 
       <div className="overflow-y-auto w-screen">
-      <ul
-        className="flex flex-col justify-around gap-10 font-poppins font-semibold text-3xl text-center"
-        onClick={() => setOpen(false)}
-      >
-        <NavLinks />
-      </ul>
-
+        <ul
+          className="flex flex-col justify-around gap-10 font-poppins font-semibold text-3xl text-center"
+          onClick={() => setOpen(false)}
+        >
+          <NavLinks />
+        </ul>
       </div>
     </div>
   );

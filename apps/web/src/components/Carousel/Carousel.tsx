@@ -9,8 +9,6 @@ type Props = {
   carouselCard: CarouselCard[];
 };
 
-
-
 const Carousel = ({ carouselCard }: Props) => {
   const settings = {
     dots: true,
@@ -20,7 +18,7 @@ const Carousel = ({ carouselCard }: Props) => {
     slidesToScroll: 3,
     initialSlide: 0,
     nextArrow: <Arrow type="next" />,
-    prevArrow: <Arrow  type="prev" />,
+    prevArrow: <Arrow type="prev" />,
     responsive: [
       {
         breakpoint: 1200,

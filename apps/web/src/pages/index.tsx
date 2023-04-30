@@ -19,7 +19,15 @@ type Props = {
   pageData: PageData;
 };
 
-const Home = ({ tracks, prizes, faqs, sponsors, mentors, judges, pageData }: Props) => {
+const Home = ({
+  tracks,
+  prizes,
+  faqs,
+  sponsors,
+  mentors,
+  judges,
+  pageData,
+}: Props) => {
   return (
     <Layout pageData={pageData}>
       <>

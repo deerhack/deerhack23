@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 const DeerhackLogo = () => {
-      const id = useRef(Math.floor(Math.random() * 10e4)).current;
+  const id = useRef(Math.floor(Math.random() * 10e4)).current;
 
   return (
     <svg
