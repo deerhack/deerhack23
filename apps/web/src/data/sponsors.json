@@ -21,7 +21,7 @@
       ]
     },
     {
-      "title": "Gold Sponsor",
+      "title": "Gold Sponsors",
       "sponsors": [
         {
           "name": "Devfolio",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "title": "Silver Sponsor",
+      "title": "Silver Sponsors",
       "sponsors": [
         {
           "name": "Solana",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "Bronze Sponsor",
+      "title": "Bronze Sponsors",
       "sponsors": [
         {
           "name": "Sticker Mule",
@@ -162,6 +162,16 @@
           "name": "Coco Affaire",
           "link": "https://cocoaffaire.com/",
           "logo": "/images/sponsors/coco_affaire.png"
+        }
+      ]
+    },
+    {
+      "title": "Confectionery Partner",
+      "sponsors": [
+        {
+          "name": "Live Bakery",
+          "link": "",
+          "logo": "/images/sponsors/livebakery.png"
         }
       ]
     },
