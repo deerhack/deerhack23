@@ -22,7 +22,6 @@ const Info = () => {
           content="DeerHack 2023 is a 48-hour hackathon where developers, designers, students, entrepreneurs, educators, and mentors work together to build ideas that solve real-world complications. Deer Hack provides an opportunity for individuals to sharpen their teamwork, communication, leadership skills, and networking in a risk-free and comfortable environment."
           illustration={<Illustration2 />}
         />
-
       </div>
       <div className="container mx-auto">
         <h2 className="font-mont font-bold text-3xl lg:text-5xl mt-20 text-white text-center">

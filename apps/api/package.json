@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "format": "prettier --write src"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",

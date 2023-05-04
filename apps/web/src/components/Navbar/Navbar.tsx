@@ -13,10 +13,10 @@ const Navbar = () => {
       <Link href={"/"}>
         <DeerhackLogo width={50} height={50} />
       </Link>
-      <ul className="lg:flex flex-row justify-around gap-10 font-poppins font-semibold hidden">
+      <ul className="xl:flex flex-row justify-around gap-10 font-poppins font-semibold hidden">
         <NavLinks />
       </ul>
-      <button className="lg:hidden" onClick={() => setOpen(!open)}>
+      <button className="xl:hidden" onClick={() => setOpen(!open)}>
         <HamburgerIcon />
       </button>
       {open && <MobileNavbar setOpen={setOpen} />}

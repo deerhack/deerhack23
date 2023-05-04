@@ -15,7 +15,7 @@ jobs:
       - name: Docker build
         run: |
           docker build . -f ./apps/web/Dockerfile -t ghcr.io/deerwalk-developers-community/deerhack:latest
-          docker build . -f ./apps/api/Dockerfile -t ghcr.io/deerwalk-developers-community/deerhack-api:latest
+          # docker build . -f ./apps/api/Dockerfile -t ghcr.io/deerwalk-developers-community/deerhack-api:latest
       
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
@@ -23,7 +23,7 @@ jobs:
       - name: Push image
         run: |
           docker push ghcr.io/deerwalk-developers-community/deerhack:latest
-          docker push ghcr.io/deerwalk-developers-community/deerhack-api:latest
+          # docker push ghcr.io/deerwalk-developers-community/deerhack-api:latest
           
   # need update
   # deploy:

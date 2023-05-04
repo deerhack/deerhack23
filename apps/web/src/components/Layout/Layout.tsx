@@ -26,12 +26,12 @@ const Layout = ({ children, pageData, transparentNav = true }: Props) => {
   }, [transparentNav]);
 
   return (
-    <>
+    <div className="overflow-auto min-w-[436px]">
       <header
         className={clsx(
           isAtTop ? "bg-transparent" : "bg-secondary",
           "text-white w-full transition z-10",
-          transparentNav ? "fixed" : "relative"
+          transparentNav ? "fixed" : "sticky top-0"
         )}
       >
         <Navbar />
@@ -42,7 +42,7 @@ const Layout = ({ children, pageData, transparentNav = true }: Props) => {
         socialLinks={pageData.socialLinks}
         contactEmail={pageData.contactEmail}
       />
-    </>
+    </div>
   );
 };
 

@@ -17,17 +17,17 @@
 }
 
 .x ul {
-    @apply pl-5;
+  @apply pl-5;
 }
 
 .x ul li {
-    @apply list-disc;
+  @apply list-disc;
 }
 
 .x ul > ul {
-    @apply ml-5;
+  @apply ml-5;
 }
 
 .x ul > ul li {
-    @apply list-[circle];
+  @apply list-[circle];
 }

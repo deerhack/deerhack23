@@ -14,13 +14,25 @@ type Prize = {
   title: string;
   description: string;
   prize: string;
+  prize_text?: string;
+};
+
+type EventData = {
+  id: number;
+  start_time: string;
+  end_time: string;
+  description: string;
+};
+type Events = {
+  date: string;
+  title: string;
+  event: EventData[];
 };
 
 type PrizeCategory = {
   category: string;
   prize: Prize;
-}
-
+};
 
 type Faq = {
   question: string;
@@ -47,4 +59,16 @@ type PageData = {
   };
   registerForm: string;
   contactEmail: string;
+};
+
+type TeamMember = {
+  name: string;
+  linkedin: string;
+  image: string;
+  rowspan: boolean;
+};
+
+type Team = {
+  title: string;
+  members: TeamMember[];
 };
