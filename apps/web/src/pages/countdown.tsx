@@ -14,7 +14,7 @@ const CountDown = ({networkData}: Props) => {
 export default CountDown;
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 
   const networkData = await readNetworkData("https://raw.githubusercontent.com/Deerwalk-Developers-Community/datahub/main/deerhack.json");
 
