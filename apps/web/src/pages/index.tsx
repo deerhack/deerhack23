@@ -3,6 +3,7 @@ import { Info } from "@/sections/home/Info";
 import { Tracks } from "@/sections/home/Tracks";
 import { Prizes } from "@/sections/home/Prizes";
 import readDataFile from "@/utilities/readDataFile";
+import readNetworkData from "@/utilities/readNetworkData";
 import { Faq } from "@/sections/home/Faq";
 import { Layout } from "@/components/Layout";
 import Head from "next/head";
@@ -17,6 +18,7 @@ type Props = {
   judges: CarouselCard[];
   mentors: CarouselCard[];
   pageData: PageData;
+  networkData: NetworkData;
 };
 
 const Home = ({
@@ -27,6 +29,7 @@ const Home = ({
   mentors,
   judges,
   pageData,
+  networkData
 }: Props) => {
   return (
     <Layout pageData={pageData}>
@@ -34,7 +37,7 @@ const Home = ({
         <Head>
           <title>DeerHack 2023 - Fawning Over Innovation</title>
         </Head>
-        <Hero discordUrl={pageData.socialLinks.discord} />
+        <Hero discordUrl={pageData.socialLinks.discord} currentEvent={networkData.currentEvent} />
         <Info />
         <Tracks tracks={tracks} />
         <Prizes prizeCategories={prizes} />
@@ -68,6 +71,8 @@ export async function getStaticProps() {
   const judgesData = await readDataFile("judges.json");
   const mentorsData = await readDataFile("mentors.json");
 
+  const networkData = await readNetworkData("https://raw.githubusercontent.com/Deerwalk-Developers-Community/datahub/main/deerhack.json");
+
   return {
     props: {
       tracks: tracksData["tracks"],
@@ -77,6 +82,7 @@ export async function getStaticProps() {
       judges: judgesData["judges"],
       mentors: mentorsData["mentors"],
       pageData: pageData,
+      networkData: networkData
     },
   };
 }

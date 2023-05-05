@@ -132,6 +132,42 @@
       ]
     },
     {
+      "title": "IT Department",
+      "members": [
+        {
+          "name": "Nirnaya Dangol",
+          "image": "/images/teams/Nirnaya Dangol.jpeg",
+          "linkedin": "https://www.linkedin.com/in/nirnaya-dangol-ba6647211/"
+        },
+        {
+          "name": "Sakar Shrestha",
+          "image": "/images/teams/Sakar Shrestha.jpeg",
+          "linkedin": "https://www.linkedin.com/in/sakar-shrestha/"
+        }
+      ]
+    },
+    {
+      "title": "Emcee",
+      "members": [
+        {
+          "name": "Yokibha Chapagain",
+          "image": "/images/teams/Yokibha Chapagain.jpg",
+          "linkedin": "https://www.linkedin.com/in/yokibha-chapagain-339391211"
+        },
+        {
+          "name": "Chadani Thapa",
+          "image": "/images/teams/Chadani Thapa.jpeg",
+          "linkedin": "https://www.linkedin.com/in/chadani-thapa-85084a211/"
+        },
+        {
+          "name": "Aayusha Karki",
+          "image": "/images/teams/Aayusha Karki.jpeg",
+          "linkedin": "https://www.linkedin.com/in/aayusha-karki-152685239"
+        }
+      ]
+
+    },
+    {
       "title": "Volunteers",
       "members": [
         {
@@ -158,11 +194,6 @@
           "name": "Rahul Shah",
           "image": "/images/teams/Rahul Shah.jpeg",
           "linkedin": "https://www.linkedin.com/in/rahul-shah-2a4791250"
-        },
-        {
-          "name": "Aayusha Karki",
-          "image": "/images/teams/Aayusha Karki.jpeg",
-          "linkedin": "https://www.linkedin.com/in/aayusha-karki-152685239"
         },
         {
           "name": "Bijay Shrestha",
@@ -213,6 +244,11 @@
           "name": "Pranjal Raut",
           "image": "/images/teams/Pranjal Raut.jpg",
           "linkedin": "https://www.linkedin.com/in/pranjal-raut-39a025264/"
+        },
+        {
+          "name": "Sachhyam Kumar Shrestha",
+          "image": "/images/teams/Sachhyam Kumar Shrestha.jpg",
+          "linkedin": "https://www.linkedin.com/in/sachhyam-kumar-shrestha-130a59218/"
         }
       ]
     }

@@ -6,9 +6,10 @@ import Logo from "@/assets/images/logo.webp";
 
 type Props = {
   discordUrl: string;
+  currentEvent: string;
 };
 
-const Hero = ({ discordUrl }: Props) => {
+const Hero = ({ discordUrl, currentEvent }: Props) => {
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
@@ -28,24 +29,31 @@ const Hero = ({ discordUrl }: Props) => {
   }, []);
 
   useEffect(() => {
-    const finalDate = new Date("2023-05-05");
+    const finalDate = new Date("2023-05-05T14:00");
 
     setInterval(() => {
       const dt = new Date(Date.now());
 
       let remainingTime = finalDate.getTime() - dt.getTime();
-      remainingTime = Math.floor(remainingTime / 1000);
 
-      const days = Math.floor(remainingTime / (24 * 60 * 60));
-      remainingTime = remainingTime % (24 * 60 * 60);
+      let days, hours, minutes, seconds;
 
-      const hours = Math.floor(remainingTime / (60 * 60));
-      remainingTime = remainingTime % (60 * 60);
+      if (remainingTime < 0) {
+        days = hours = minutes = seconds = 0;
+      } else {
+        remainingTime = Math.floor(remainingTime / 1000);
 
-      const minutes = Math.floor(remainingTime / 60);
-      remainingTime = remainingTime % 60;
+        days = Math.floor(remainingTime / (24 * 60 * 60));
+        remainingTime = remainingTime % (24 * 60 * 60);
 
-      const seconds = remainingTime;
+        hours = Math.floor(remainingTime / (60 * 60));
+        remainingTime = remainingTime % (60 * 60);
+
+        minutes = Math.floor(remainingTime / 60);
+        remainingTime = remainingTime % 60;
+
+        seconds = remainingTime;
+      }
 
       setTime({ days, hours, minutes, seconds });
     }, 1000);

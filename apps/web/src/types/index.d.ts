@@ -72,3 +72,7 @@ type Team = {
   title: string;
   members: TeamMember[];
 };
+
+type NetworkData = {
+  currentEvent: string;
+}
