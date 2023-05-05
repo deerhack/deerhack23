@@ -45,6 +45,9 @@ const NavLinks = () => {
       <li className="hover:text-primary">
         <Link href="/resources/participants.pdf">Participants</Link>
       </li>
+      <li className="hover:text-primary">
+        <Link href="/resources/judging_criteria.pdf">Judging Criteria</Link>
+      </li>
     </>
   );
 };
