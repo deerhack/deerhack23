@@ -3,19 +3,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from "@/assets/images/logo.webp";
+import moment from "moment";
 
 type Props = {
-  discordUrl: string;
-  currentEvent: string;
+  upcomingEvent: string;
+  stime: string;
 };
 
-const Hero = ({ discordUrl, currentEvent }: Props) => {
+const Hero = ({ upcomingEvent, stime }: Props) => {
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
   });
+
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -29,7 +31,7 @@ const Hero = ({ discordUrl, currentEvent }: Props) => {
   }, []);
 
   useEffect(() => {
-    const finalDate = new Date("2023-05-05T17:00");
+    const finalDate = new Date(stime);
 
     setInterval(() => {
       const dt = new Date(Date.now());
@@ -121,7 +123,7 @@ const Hero = ({ discordUrl, currentEvent }: Props) => {
         DeerHack 2023
       </h2> */}
       <h4 className="font-poppins font-medium text-2xl lg:text-5xl mt-8 text-white">
-        5th-7th May
+        {upcomingEvent}
       </h4>
       <div className="flex flex-row gap-2 justify-center font-mont text-4xl lg:text-7xl text-primary font-bold mt-10">
         <div className="flex flex-col gap-2 text-center">
@@ -145,24 +147,6 @@ const Hero = ({ discordUrl, currentEvent }: Props) => {
         </div>
       </div>
 
-      <div className="mt-10">
-        <div
-          className="apply-button"
-          data-hackathon-slug="deerhack"
-          data-button-theme="light"
-          style={{ height: "44px", width: "312px" }}
-        ></div>
-      </div>
-      {/* <Link
-        className="border-primary border-2 px-5 py-3 font-mont font-bold text-xl lg:text-3xl text-white mt-10 rounded-xl hover:bg-primary transition duration-200"
-        href={"/register"}
-      >
-        Pre-Register
-      </Link> */}
-
-      <a href={discordUrl} className="my-10">
-        <DiscordLogo />
-      </a>
     </section>
   );
 };

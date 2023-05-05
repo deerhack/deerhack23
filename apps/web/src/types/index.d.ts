@@ -75,4 +75,6 @@ type Team = {
 
 type NetworkData = {
   currentEvent: string;
+  upcomingEvent: string;
+  upcomingEventTime: string;
 }
