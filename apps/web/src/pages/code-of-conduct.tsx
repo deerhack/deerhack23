@@ -94,6 +94,9 @@ const CodeOfConduct = ({ pageData }: Props) => {
               <li>The applicant&apos;s college Identity Card.</li>
               <li>Examples of the candidate&apos;s work or portfolio.</li>
             </ul>
+            <li>
+              Consumption of any illegal substances inside the Deerwalk Complex premises is strictly forbidden. If found, disciplinary actions will be taken.
+            </li>
           </ul>
 
           <h2>Rules for Team Formation</h2>
