@@ -27,27 +27,27 @@ const winners = ({ pageData }: Props) => {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-40 py-14">
             <Image
-              src={"/images/winners/CONTRIVERS.svg"}
-              height={600}
-              width={600}
+              src={"/images/winners/CODE CRUSADERS.svg"}
+              height={520}
+              width={520}
               alt="winners image"
             />
             <Image
-              src={"/images/winners/CONTRIVERS.svg"}
-              height={600}
-              width={600}
+              src={"/images/winners/THE KRIPPLES.svg"}
+              height={520}
+              width={520}
               alt="winners image"
             />
             <Image
-              src={"/images/winners/CONTRIVERS.svg"}
-              height={600}
-              width={600}
+              src={"/images/winners/PENTAGON.svg"}
+              height={520}
+              width={520}
               alt="winners image"
             />
             <Image
-              src={"/images/winners/CONTRIVERS.svg"}
-              height={600}
-              width={600}
+              src={"/images/winners/CUSTODES.svg"}
+              height={520}
+              width={520}
               alt="winners image"
             />
           </div>
