@@ -67,23 +67,9 @@ const Hero = ({ discordUrl }: Props) => {
       </h4>
       <div className="flex flex-row gap-2 justify-center font-mont text-4xl lg:text-7xl text-primary font-bold mt-10">
         <div className="flex flex-col gap-2 text-center">
-          <span>{time.days}</span>
-          <span className="text-sm lg:text-lg text-white">Days</span>
-        </div>
-        <span>:</span>
-        <div className="flex flex-col gap-2 text-center">
-          <span>{time.hours}</span>
-          <span className="text-sm lg:text-lg text-white">Hours</span>
-        </div>
-        <span>:</span>
-        <div className="flex flex-col gap-2 text-center">
-          <span>{time.minutes}</span>
-          <span className="text-sm lg:text-lg text-white">Minutes</span>
-        </div>
-        <span>:</span>
-        <div className="flex flex-col gap-2 text-center">
-          <span>{time.seconds}</span>
-          <span className="text-sm lg:text-lg text-white">Seconds</span>
+          <p className="text-xl lg:text-4xl text-white">
+            DeerHack 2023 has been concluded. See you again next time!
+          </p>
         </div>
       </div>
 
