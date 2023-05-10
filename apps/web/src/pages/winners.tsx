@@ -21,7 +21,7 @@ const winners = ({ pageData }: Props) => {
             alt="winners image"
           />
           <div className="container mx-auto p-5 flex flex-col lg:gap-y-28 gap-y-16">
-            <h1 className="font-mont font-bold text-3xl lg:text-5xl mt-20 text-white text-center">
+            <h1 className="font-mont font-bold text-4xl lg:text-5xl mt-20 text-white text-center">
               TRACK WINNERS
             </h1>
           </div>
