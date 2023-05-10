@@ -40,13 +40,25 @@ const NavLinks = () => {
         <Link href="/organizer">Organizers</Link>
       </li>
       <li className="hover:text-primary">
-        <Link href={"/code-of-conduct"}>Code of Conduct</Link>
+        <Link href="/winners">Winners</Link>
       </li>
-      <li className="hover:text-primary">
-        <Link href="/resources/participants.pdf">Participants</Link>
-      </li>
-      <li className="hover:text-primary">
-        <Link href="/resources/judging_criteria.pdf">Judging Criteria</Link>
+      <li className="group relative">
+        <span className="group-hover:text-primary">Resources</span>
+        <div className="hidden group-hover:block absolute pt-5 right-0">
+          <ul className="bg-[#4B64A3] w-max">
+            <li className="hover:text-primary py-3 px-4">
+              <Link href={"/code-of-conduct"}>Code of Conduct</Link>
+            </li>
+            <li className="hover:text-primary py-3 px-4">
+              <Link href="/resources/participants.pdf">Participants</Link>
+            </li>
+            <li className="hover:text-primary py-3 px-4">
+              <Link href="/resources/judging_criteria.pdf">
+                Judging Criteria
+              </Link>
+            </li>
+          </ul>
+        </div>
       </li>
     </>
   );
