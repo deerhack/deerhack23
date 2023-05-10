@@ -9,6 +9,8 @@ import { Layout } from "@/components/Layout";
 import Head from "next/head";
 import { Sponsors } from "@/sections/home/Sponsors";
 import { ListCarousel } from "@/sections/home/ListCarousel";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 type Props = {
   tracks: Track[];
@@ -31,6 +33,23 @@ const Home = ({
   pageData,
   networkData
 }: Props) => {
+
+  const router = useRouter();
+
+
+  useEffect(() => {
+    const redirect = sessionStorage.getItem("redirect");
+
+    if (!redirect) {
+      sessionStorage.setItem("redirect", "true");
+
+      router.replace("/winners");
+      
+    }
+
+  }, [router]);
+
+
   return (
     <Layout pageData={pageData}>
       <>
