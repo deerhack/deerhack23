@@ -35,6 +35,14 @@
     {
       "question": "What do I do if I get stuck on a problem during DeerHack?",
       "answer": "With our experienced set of guides and mentors, DeerHack will make sure that if you encounter a problem, it will not go unsolved. Just don’t be reluctant to reach out to us if you’re facing a problem."
+    },
+    {
+      "question": "What about APIs?",
+      "answer": "You are permitted to use either your own or third-party APIs, provided that your project is entirely original and has not been used before."
+    },
+    {
+      "question": "I have additional questions, how can I ask them?",
+      "answer": "No need to worry. We are available to help and answer any questions you may have. You can send us an email at deerhack@deerwalk.edu.np or contact us through our social media accounts."
     }
   ]
 }

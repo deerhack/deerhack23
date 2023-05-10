@@ -14,6 +14,7 @@ type Prize = {
   title: string;
   description: string;
   prize: string;
+  prize_text?: string;
 };
 
 type EventData = {
@@ -59,3 +60,21 @@ type PageData = {
   registerForm: string;
   contactEmail: string;
 };
+
+type TeamMember = {
+  name: string;
+  linkedin: string;
+  image: string;
+  rowspan: boolean;
+};
+
+type Team = {
+  title: string;
+  members: TeamMember[];
+};
+
+type NetworkData = {
+  currentEvent: string;
+  upcomingEvent: string;
+  upcomingEventTime: string;
+}

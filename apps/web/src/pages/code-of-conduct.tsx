@@ -74,8 +74,8 @@ const CodeOfConduct = ({ pageData }: Props) => {
               Participants of all ages, genders, and geographies are welcome.
             </li>
             <li>
-              To attend DeerHack, the age is limited to students who are between 18
-              and 25 years old.
+              To attend DeerHack, the age is limited to students who are between
+              18 and 25 years old.
             </li>
             <li>
               Members of the organizing committee or Deerwalk Institute of
@@ -94,6 +94,9 @@ const CodeOfConduct = ({ pageData }: Props) => {
               <li>The applicant&apos;s college Identity Card.</li>
               <li>Examples of the candidate&apos;s work or portfolio.</li>
             </ul>
+            <li>
+              Consumption of any illegal substances inside the Deerwalk Complex premises is strictly forbidden. If found, disciplinary actions will be taken.
+            </li>
           </ul>
 
           <h2>Rules for Team Formation</h2>
